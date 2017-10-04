@@ -1,0 +1,29 @@
+*{
+   box-sizing: border-box
+}
+
+html{
+  min-height: 100%;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: $brand-dark;
+	outline: 0;
+}
+
+.btn{
+  margin: 0 !important;
+  box-shadow: none !important;
+  text-transform: capitalize !important;
+}
+

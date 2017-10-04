@@ -1,0 +1,201 @@
+/* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
+html {
+  min-height: 100%;
+}
+
+/* line 9, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 14, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 18, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
+a {
+  text-decoration: none;
+  color: #4A4A4A;
+  outline: 0;
+}
+
+/* line 24, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
+.btn {
+  margin: 0 !important;
+  box-shadow: none !important;
+  text-transform: capitalize !important;
+}
+
+/* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_base.scss */
+ul {
+  padding-left: 0 !important;
+}
+
+/* line 5, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_base.scss */
+input[type=date],
+input[type=datetime-local],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search-md],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+textarea.md-textarea {
+  box-sizing: border-box !important;
+}
+
+/*
+variables
+line-height: 1;
+font-size: 1;
+padding-top and bottom 2.625rem;
+padding-left and right 1.5rem;
+
+$navbar_lineHeight: 1;
+$navlink_fontSize: 1rem;
+$navlink_paddingTB: 2.625rem;
+$navlink_paddingLR: 1.5rem
+*/
+/* line 14, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_header.scss */
+.navbar {
+  border-radius: 0;
+  padding: 0 1rem;
+}
+
+/* line 19, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_header.scss */
+.navbar-brand {
+  webkit-align-self: center !important;
+  -ms-flex-item-align: center !important;
+  align-self: center !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* line 27, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_header.scss */
+.nav-link {
+  padding: 2.625rem 1.5rem !important;
+  line-height: 1 !important;
+  font-size: 1rem;
+}
+
+/* line 33, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_header.scss */
+.nav-item.active a:before,
+.nav-item.active a:after {
+  border-top: 3px solid #4C62A8;
+  bottom: 0px;
+  content: "";
+  height: 0;
+  left: 50%;
+  position: absolute;
+  width: calc(100% - 3rem);
+  margin-left: calc(-0.5 * calc(100% - 3rem));
+  transition: width 0.5s ease 0s;
+}
+
+/* line 47, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_header.scss */
+.nav-item {
+  position: relative;
+}
+
+/* line 50, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_header.scss */
+.nav-item:last-child .nav-link {
+  padding-right: 0 !important;
+}
+
+/* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.col--361 {
+  width: 361px;
+}
+
+/* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
+footer {
+  background-color: #283459;
+  padding-top: 88px;
+  padding-bottom: 17px;
+  min-height: 340px;
+  color: #FFF;
+}
+
+/* line 9, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
+.inlineblockList {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+/* line 16, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
+.inlineblockList__logo {
+  width: 210px;
+}
+
+/* line 20, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
+.inlineblockList__132 {
+  width: 132px;
+}
+
+/* line 24, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
+.inlineblockList__104 {
+  width: 104px;
+}
+
+/* line 28, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
+.inlineblockList__60 {
+  width: 60px;
+}
+
+/* line 32, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
+.inlineblockList__141 {
+  width: 141px;
+}
+
+/* line 36, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
+.inlineblockList__160 {
+  width: 160px;
+}
+
+/* line 40, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
+.inlineblockList__center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* line 47, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
+.inlineblockList a {
+  opacity: 0.72;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* line 55, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
+.copyright {
+  text-align: center;
+  padding-top: 140px;
+  line-height: 15px;
+  opacity: 0.72;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFF;
+}
+
+/* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_buttons.scss */
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:visited {
+  background: #FECB3F !important;
+  background-color: #FECB3F !important;
+}
+
+/*# sourceMappingURL=../css/main.map */
