@@ -4,29 +4,24 @@
 }
 
 /* line 5, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
-html {
-  min-height: 100%;
-}
-
-/* line 9, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
 body {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 14, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
+/* line 10, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
 ul, li {
   list-style: none;
 }
 
-/* line 18, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
+/* line 14, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
 a {
   text-decoration: none;
   color: #4A4A4A;
   outline: 0;
 }
 
-/* line 24, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
+/* line 20, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/base/_reset.scss */
 .btn {
   margin: 0 !important;
   box-shadow: none !important;
