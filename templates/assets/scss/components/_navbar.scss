@@ -1,0 +1,56 @@
+// NAV BAR 1rem == 16px;
+/*
+variables
+line-height: 1;
+font-size: 1;
+padding-top and bottom 2.625rem;
+padding-left and right 1.5rem;
+
+$navbar_lineHeight: 1;
+$navlink_fontSize: 1rem;
+$navlink_paddingTB: 2.625rem;
+$navlink_paddingLR: 1.5rem
+*/
+.navbar{
+	border-radius: 0;
+	box-shadow: none !important;
+	margin-bottom: 0 !important;
+	padding: 0 1rem;
+}
+
+.navbar-brand{
+	-webkit-align-self: center !important;
+    -ms-flex-item-align: center !important;
+	align-self: center !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.nav-link{
+	font-size: $navlink_fontSize;
+	line-height: $navbar_lineHeight !important;
+	padding: $navlink_paddingTB $navlink_paddingLR !important;
+}
+
+.nav-item.active a:before,
+.nav-item.active a:after
+{
+	border-top: $navlink_bottomLineHeight solid $navlink_bottomLineColor;
+    bottom: 0px;
+    content: "";
+    height: 0;
+	left: 50%;
+	margin-left: calc(-0.5 * calc(100% - #{$navlink_paddingLR * 1.5}));
+	position: absolute;
+	transition: width 0.5s ease 0s;
+	width: calc(100% - #{$navlink_paddingLR * 1.5});
+}
+
+.nav-item{
+	position: relative;
+	&:last-child{
+		.nav-link{
+			padding-right: 0 !important;
+		}
+	}
+}

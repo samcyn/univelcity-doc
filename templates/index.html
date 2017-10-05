@@ -38,30 +38,30 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link waves-effect waves-light" href="#"><i class="fa fa-envelope"></i> Immersive Courses <span class="sr-only">(current)</span></a>
+                            <a class="nav-link waves-effect waves-light" href="#">Immersive Courses <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link waves-effect waves-light" href="#"><i class="fa fa-gear"></i> Accelerated Courses </a>
+                            <a class="nav-link waves-effect waves-light" href="#">Accelerated Courses </a>
 						</li>
 						<li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="#"><i class="fa fa-gear"></i> CareerXpress </a>
+                            <a class="nav-link waves-effect waves-light" href="#">CareerXpress </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="#"><i class="fa fa-gear"></i> Store </a>
+                            <a class="nav-link waves-effect waves-light" href="#">Store </a>
 						</li>
 						<li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="#"><i class="fa fa-gear"></i> About Us </a>
+                            <a class="nav-link waves-effect waves-light" href="#"> About Us </a>
                         </li>
                     </ul>
 				</div>
 				</div>
             </nav>
 			<div class="banner">
-				<div class="banner__wrap">
-					<div class="overlay">
-						<div class="container">
+				<div class="banner__overlay">
+					<div class="container">
+						<div class="banner__heading">
 							<h3>It’s never too late to start your journey in tech, 
-								all it takes is a step in the right direction  </h3>
+							all it takes is a step in the right direction  </h3>
 						</div>
 					</div>
 				</div>
@@ -70,10 +70,10 @@
 
 		<main>
 			
-			<section>
+			<section class="inner-section">
 				<div class="container">
-					<h3>Accelerate your Tech Career</h3>
-					<div>
+					<h3 class="inner-section__heading">Accelerate your Tech Career</h3>
+					<div class="inner-section__passage">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 						Cras urna nisi, pretium a arcu ut, dapibus aliquet tellus. In at augue sollicitudin, bibendum nunc vel, dignissim dui. Ut auctor, lacus non convallis sollicitudin, odio enim porttitor ex, id porta massa magna nec magna. Integer tincidunt ac sem quis venenatis. Suspendisse bibendum, metus non vulputate porttitor, lacus lectus mattis velit, 
 						ut posuere enim metus faucibus dolor. Curabitur cursus venenatis augue, 
@@ -81,24 +81,28 @@
 				</div>
 			</section>
 
-			<section>
+			<section class="inner-section" id="focus">
 				<div class="container">
-					<h3>Our Focus</h3>
-					<div>
+					<h3 class="inner-section__heading">Our Focus</h3>
+					<div class="container__smaller">
 						<div class="row">
 							<div class="col-12 col-md-6">
 								<!--Card-->
-								<div class="card">
+								<div class="card card--focus">
 									<!--Card content-->
 									<div class="card-body">
 										<!--Title-->
-										<h4 class="card-title">Card title</h4>
+										<h4 class="card-title">Individuals</h4>
 										<!--Text-->
-										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+											Cras urna nisi, pretium a arcu ut, dapibus aliquet tellus.
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										</p>
 										
 										<!--Card image-->
 										<img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%282%29.jpg" alt="Card image cap">	
-										<a href="#" class="btn btn-primary">Button</a>
+										<a href="#" class="btn btn-brand">Get Started</a>
 									</div>
 									
 								</div>
@@ -106,17 +110,23 @@
 							</div>
 							<div class="col-12 col-md-6">
 								<!--Card-->
-								<div class="card">
+								<div class="card card--focus">
 									<!--Card content-->
 									<div class="card-body">
 										<!--Title-->
-										<h4 class="card-title">Card title</h4>
+										<h4 class="card-title">Companies</h4>
 										<!--Text-->
-										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+											Cras urna nisi, pretium a arcu ut, dapibus aliquet tellus.
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										</p>
+										
 										<!--Card image-->
 										<img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%282%29.jpg" alt="Card image cap">	
-										<a href="#" class="btn btn-primary">Button</a>
-									</div>	
+										<a href="#" class="btn btn-brand">Get Started</a>
+									</div>
+									
 								</div>
 								<!--/.Card-->
 							</div>
@@ -125,23 +135,30 @@
 				</div>
 			</section>
 
-			<section>
+			<section class="inner-section" id="upcoming_courses">
 				<div class="container">
-					<h3>Upcoming Courses</h3>
+					<h3 class="inner-section__heading">Upcoming Courses</h3>
 					<div>
 						<div class="row">
 							<div class="col-12 col-md-6">
 								<!--Card-->
-								<div class="card">
+								<div class="card card--courses">
 									<!--Card content-->
 									<div class="card-body">
 										<div class="media">
-											<img class="d-flex mr-3" src="https://placehold.it/64x64" alt="Generic placeholder image">
-											<div class="media-body">
-												<h5 class="mt-0">Center-aligned media</h5>
-												<p>Lorem ipsum dolor sit amet, elit.  Cras urna nisi, pretium a arcu ut, dapibus aliquet tellus….</p>
-												
+											<img class="d-flex mr-3 course-icon" src="assets/img/icons/html5.png" alt="Generic placeholder image">
+											<div class="media-detail">
+												<h5 class="mt-0 media-title">Html and Css 101</h5>
+												<p class="media-text">Lorem ipsum dolor sit amet, elit.  Cras urna nisi, pretium a arcu ut, dapibus aliquet tellus….</p>
+												<div class="d-flex">
+													<img src="assets/img/icons/calendar.png" alt="Generic placeholder image">
+													<div class="ml-3 align-self-center">
+														<h6 class="media-date">Thursday 24 July 2017</h6>
+													</div>
+												</div>
 											</div>
+											<img class="d-flex align-self-center" src="assets/img/icons/arrow-right.png" alt="Generic placeholder image">
+											
 										</div>
 									</div>	
 								</div>
@@ -149,78 +166,95 @@
 							</div>
 							<div class="col-12 col-md-6">
 								<!--Card-->
-								<div class="card">
-									
+								<div class="card card--courses">
 									<!--Card content-->
 									<div class="card-body">
 										<div class="media">
-											<img class="d-flex mr-3" src="https://placehold.it/64x64" alt="Generic placeholder image">
-											<div class="media-body">
-												<h5 class="mt-0">Center-aligned media</h5>
-												<p>Lorem ipsum dolor sit amet, elit.  Cras urna nisi, pretium a arcu ut, dapibus aliquet tellus….</p>
-												
+											<img class="d-flex mr-3 course-icon" src="assets/img/icons/javascript.png" alt="Generic placeholder image">
+											<div class="media-detail">
+												<h5 class="mt-0 media-title">Html and Css 101</h5>
+												<p class="media-text">Lorem ipsum dolor sit amet, elit.  Cras urna nisi, pretium a arcu ut, dapibus aliquet tellus….</p>
+												<div class="d-flex">
+													<img src="assets/img/icons/calendar.png" alt="Generic placeholder image">
+													<div class="ml-3 align-self-center">
+														<h6 class="media-date">Thursday 24 July 2017</h6>
+													</div>
+												</div>
 											</div>
+											<img class="d-flex align-self-center" src="assets/img/icons/arrow-right.png" alt="Generic placeholder image">
+											
 										</div>
-									</div>
-										
+									</div>	
 								</div>
 								<!--/.Card-->
 							</div>
 							<div class="col-12 col-md-6">
 								<!--Card-->
-								<div class="card">
-									
+								<div class="card card--courses">
 									<!--Card content-->
 									<div class="card-body">
 										<div class="media">
-											<img class="d-flex mr-3" src="https://placehold.it/64x64" alt="Generic placeholder image">
-											<div class="media-body">
-												<h5 class="mt-0">Center-aligned media</h5>
-												<p>Lorem ipsum dolor sit amet, elit.  Cras urna nisi, pretium a arcu ut, dapibus aliquet tellus….</p>
-												
+											<img class="d-flex mr-3 course-icon" src="assets/img/icons/react.png" alt="Generic placeholder image">
+											<div class="media-detail">
+												<h5 class="mt-0 media-title">Html and Css 101</h5>
+												<p class="media-text">Lorem ipsum dolor sit amet, elit.  Cras urna nisi, pretium a arcu ut, dapibus aliquet tellus….</p>
+												<div class="d-flex">
+													<img src="assets/img/icons/calendar.png" alt="Generic placeholder image">
+													<div class="ml-3 align-self-center">
+														<h6 class="media-date">Thursday 24 July 2017</h6>
+													</div>
+												</div>
 											</div>
+											<img class="d-flex align-self-center" src="assets/img/icons/arrow-right.png" alt="Generic placeholder image">
+											
 										</div>
-									</div>
-										
+									</div>	
 								</div>
 								<!--/.Card-->
 							</div>
 							<div class="col-12 col-md-6">
 								<!--Card-->
-								<div class="card">
-									
+								<div class="card card--courses">
 									<!--Card content-->
 									<div class="card-body">
 										<div class="media">
-											<img class="d-flex mr-3" src="https://placehold.it/64x64" alt="Generic placeholder image">
-											<div class="media-body">
-												<h5 class="mt-0">Center-aligned media</h5>
-												<p>Lorem ipsum dolor sit amet, elit.  Cras urna nisi, pretium a arcu ut, dapibus aliquet tellus….</p>
-												
+											<img class="d-flex mr-3 course-icon" src="assets/img/icons/meteor.png" alt="Generic placeholder image">
+											<div class="media-detail">
+												<h5 class="mt-0 media-title">Html and Css 101</h5>
+												<p class="media-text">Lorem ipsum dolor sit amet, elit.  Cras urna nisi, pretium a arcu ut, dapibus aliquet tellus….</p>
+												<div class="d-flex">
+													<img src="assets/img/icons/calendar.png" alt="Generic placeholder image">
+													<div class="ml-3 align-self-center">
+														<h6 class="media-date">Thursday 24 July 2017</h6>
+													</div>
+												</div>
 											</div>
+											<img class="d-flex align-self-center" src="assets/img/icons/arrow-right.png" alt="Generic placeholder image">
+											
 										</div>
-									</div>
-										
+									</div>	
 								</div>
 								<!--/.Card-->
 							</div>
 						</div>
 					</div>
-					<div>
-						<a class="btn btn-primary">CLICK</a>
+					<div class="text-center">
+						<a class="btn btn-brand courses-btn">View All Courses</a>
 					</div>	
 				</div>
 			</section>
 
-			<section>
-				<div class="container">
-					<h3>Get exclusive updates about our upcoming courses and events </h3>
+			<section class="inner-section" id="contact">
+				<div class="container__smaller">
+					<h3 class="inner-section__heading">Get exclusive updates about our upcoming courses and events </h3>
 					<div>
-						<form>
-							<div class="form-group">
-								<input type="text" class="input-alternate" placeholder="John Doe"/>
+						<form class="contact-form">
+							<div class="form-group text-center">
+								<input type="text" class="input-alternate m-auto" placeholder="Email"/>
 							</div>
-							<a class="btn btn-primary">CLICK</a>
+							<div class="text-center">
+								<a class="btn btn-brand courses-btn">Subscribe</a>
+							</div>
 						</form>
 					</div>	
 				</div>

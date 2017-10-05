@@ -61,29 +61,31 @@ $navlink_fontSize: 1rem;
 $navlink_paddingTB: 2.625rem;
 $navlink_paddingLR: 1.5rem
 */
-/* line 14, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_header.scss */
+/* line 14, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
 .navbar {
   border-radius: 0;
+  box-shadow: none !important;
+  margin-bottom: 0 !important;
   padding: 0 1rem;
 }
 
-/* line 19, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_header.scss */
+/* line 21, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
 .navbar-brand {
-  webkit-align-self: center !important;
+  -webkit-align-self: center !important;
   -ms-flex-item-align: center !important;
   align-self: center !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 
-/* line 27, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_header.scss */
+/* line 29, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
 .nav-link {
-  padding: 2.625rem 1.5rem !important;
-  line-height: 1 !important;
   font-size: 1rem;
+  line-height: 1 !important;
+  padding: 2.625rem 1.5rem !important;
 }
 
-/* line 33, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_header.scss */
+/* line 35, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
 .nav-item.active a:before,
 .nav-item.active a:after {
   border-top: 3px solid #4C62A8;
@@ -91,25 +93,132 @@ $navlink_paddingLR: 1.5rem
   content: "";
   height: 0;
   left: 50%;
+  margin-left: calc(-0.5 * calc(100% - 2.25rem));
   position: absolute;
-  width: calc(100% - 3rem);
-  margin-left: calc(-0.5 * calc(100% - 3rem));
   transition: width 0.5s ease 0s;
+  width: calc(100% - 2.25rem);
 }
 
-/* line 47, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_header.scss */
+/* line 49, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
 .nav-item {
   position: relative;
 }
 
-/* line 50, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_header.scss */
+/* line 52, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
 .nav-item:last-child .nav-link {
   padding-right: 0 !important;
+}
+
+/* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+.banner {
+  background-image: url(../../assets/img/banners/index.png);
+  height: auto;
+  position: relative;
+}
+
+@media (min-width: 991px) {
+  /* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+  .banner {
+    height: 456px;
+  }
+}
+
+/* line 10, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+.banner__overlay {
+  align-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  color: #FFF;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+/* line 26, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+.banner__heading {
+  max-width: 751px;
+}
+
+/* line 28, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+.banner__heading h3 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.34;
+  text-align: left;
+  color: #ffffff;
 }
 
 /* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
 .col--361 {
   width: 361px;
+}
+
+/* line 5, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.inner-section {
+  padding: 88px 0;
+}
+
+/* line 9, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.inner-section__heading {
+  color: #4A4A4A;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+/* line 18, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.inner-section__passage {
+  color: #4A4A4A;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: 991px) {
+  /* line 18, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  .inner-section__passage {
+    max-width: 945px;
+  }
+}
+
+/* line 29, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.container__smaller {
+  margin: 0 auto;
+}
+
+@media (min-width: 991px) {
+  /* line 29, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  .container__smaller {
+    max-width: 945px;
+  }
+}
+
+/* line 36, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+#upcoming_courses {
+  background-color: rgba(76, 98, 168, 0.04);
+}
+
+/* line 40, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.contact-form input {
+  width: 494px;
+  height: 54px !important;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: solid 1px #cdcdcd;
+}
+
+/* line 48, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.contact-form .form-group {
+  margin-bottom: 24px;
 }
 
 /* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
@@ -188,9 +297,113 @@ footer {
 }
 
 /* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_buttons.scss */
-.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:visited {
-  background: #FECB3F !important;
-  background-color: #FECB3F !important;
+.btn {
+  font-size: .8rem;
+  padding: .85rem 2.13rem;
+  margin: 6px;
+  border-radius: 2px;
+  border: 0;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  white-space: normal !important;
+  cursor: pointer;
+}
+
+/* line 13, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_buttons.scss */
+.btn-brand {
+  background-color: #4C62A8;
+  border-radius: 1.5px;
+  box-shadow: 1px 1px 2px 0 rgba(155, 155, 155, 0.5);
+}
+
+/* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.card--focus .card-title {
+  color: #4a4a4a;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 8px;
+}
+
+/* line 9, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.card--focus .card-body {
+  padding: 24px;
+}
+
+/* line 13, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.card--focus .card-text {
+  max-height: 84px;
+  font-size: 16px;
+  line-height: 1.31;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+@media (min-width: 991px) {
+  /* line 21, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+  .card--focus .img-fluid {
+    height: 222px;
+    margin-bottom: 16px;
+    width: 100%;
+  }
+}
+
+/* line 29, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.card--focus .btn-brand {
+  line-height: 16px;
+  padding: 14px 34px;
+  width: 166px;
+}
+
+/* line 35, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.card--courses .media-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+/* line 41, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.card--courses .course-icon {
+  width: 128px;
+  height: 148px;
+}
+
+/* line 46, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.card--courses .media-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* line 51, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.card--courses .media-date {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* line 56, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.card--courses .media-detail {
+  width: 282px !important;
+}
+
+/* line 60, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.card--courses .media {
+  justify-content: space-between;
+}
+
+/* line 64, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.courses-btn {
+  margin: 0 auto !important;
+  width: 313px;
+}
+
+/* line 69, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.card--courses {
+  margin-bottom: 48px;
+}
+
+/* line 73, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_cards.scss */
+.card--courses .card-body {
+  padding: 24px;
 }
 
 /*# sourceMappingURL=../css/main.map */

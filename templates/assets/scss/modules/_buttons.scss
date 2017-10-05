@@ -1,7 +1,17 @@
-.btn-primary{
-	background: $brand-yellow !important;
-	background-color: $brand-yellow !important;
-	&:hover, &:focus, &:active, &:visited{
-		@extend .btn-primary;
-	}
+.btn {
+    font-size: .8rem;
+    padding: .85rem 2.13rem;
+    margin: 6px;
+    border-radius: 2px;
+    border: 0;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    white-space: normal!important;
+    cursor: pointer;
+}
+
+.btn-brand {
+	background-color: $button-brand-color;
+	border-radius: 1.5px;
+	box-shadow: 1px 1px 2px 0 rgba(155, 155, 155, 0.5);
 }
