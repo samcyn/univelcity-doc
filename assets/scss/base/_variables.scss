@@ -1,14 +1,18 @@
+//COLORS
 $brand-yellow: #FECB3F;
 $brand-blue: #4C62A8;
 $brand-dark: #4A4A4A;
 $brand-grey: #E1E1E1;
-$font-family: 'Roboto', sans-serif;
-$font-family2: 'Bellefair', serif;
-$font-family3: 'Herveticanuea', serif;
-$worksans: 'Worksans','serif';
-$cedar: 'Cedarville Cursive', cursive;
+
+//SPACE
 $section-gap: 88px;
+
+
+//IMAGES
 $images: fellowship, about-us, courses, mvp, products, events, default;
+
+//CONTAINER
+$smaller_container: 945px;
 
 
 // NAVBAR 
@@ -18,3 +22,17 @@ $navlink_paddingTB: 2.625rem;
 $navlink_paddingLR: 1.5rem;
 $navlink_bottomLineColor: $brand-blue;
 $navlink_bottomLineHeight: 3px;
+
+
+//INNER SECTIONS
+$inner-section-gap: $section-gap;
+$inner-section_heading_font_size: 40px;
+$inner-section_heading_color: $brand-dark;
+$inner-section_heading_line_height: 35px;
+$inner-section_heading_margin_bottom: 48px;
+$inner-section_passage_font_size: 16px;
+$inner-section_passage_line_height: 1.5;
+$inner-section_passage_max-width: $smaller_container;
+
+//BUTTON
+$button-brand-color: $brand-blue;

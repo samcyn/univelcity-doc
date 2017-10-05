@@ -1,1 +1,75 @@
-// not here for now
+.card--focus .card-title{
+    color: #4a4a4a;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+
+.card--focus .card-body{
+    padding: 24px;
+}
+
+.card--focus .card-text{
+    max-height: 84px;
+    font-size: 16px;
+    line-height: 1.31;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.card--focus .img-fluid{
+    @media (min-width: 991px){
+        height: 222px;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+}
+
+.card--focus .btn-brand{
+    line-height: 16px;
+    padding: 14px 34px;
+    width: 166px;
+}
+
+.card--courses .media-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.card--courses .course-icon{
+    width: 128px;
+    height: 148px;
+}
+
+.card--courses .media-text{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card--courses .media-date{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card--courses .media-detail{
+    width: 282px !important;
+}
+
+.card--courses .media{
+    justify-content: space-between;
+}
+
+.courses-btn{
+    margin: 0 auto !important;
+    width: 313px;
+}
+
+.card--courses{
+    margin-bottom: 48px;
+}
+
+.card--courses .card-body{
+    padding: 24px;
+}
