@@ -1,21 +1,12 @@
 // NAV BAR 1rem == 16px;
-/*
-variables
-line-height: 1;
-font-size: 1;
-padding-top and bottom 2.625rem;
-padding-left and right 1.5rem;
 
-$navbar_lineHeight: 1;
-$navlink_fontSize: 1rem;
-$navlink_paddingTB: 2.625rem;
-$navlink_paddingLR: 1.5rem
-*/
 .navbar{
 	border-radius: 0;
 	box-shadow: none !important;
 	margin-bottom: 0 !important;
 	padding: 0 1rem;
+	//border-bottom: $navbar_border_bottom;
+	box-shadow: $navbar_box_shadow !important;
 }
 
 .navbar-brand{
@@ -24,9 +15,13 @@ $navlink_paddingLR: 1.5rem
 	align-self: center !important;
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
+	img{
+		max-height: $navbar_logo_height !important;
+	}
 }
 
 .nav-link{
+	color: $navlink_color !important; 
 	font-size: $navlink_fontSize;
 	line-height: $navbar_lineHeight !important;
 	padding: $navlink_paddingTB $navlink_paddingLR !important;

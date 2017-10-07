@@ -4,24 +4,39 @@ $brand-blue: #4C62A8;
 $brand-dark: #4A4A4A;
 $brand-grey: #E1E1E1;
 
+//FONTS
+$BryantAlt: 'BryantRegularAlt';
+//CONTAINER
+$smaller_container: 945px;
+
 //SPACE
 $section-gap: 88px;
 
 
-//IMAGES
-$images: fellowship, about-us, courses, mvp, products, events, default;
-
-//CONTAINER
-$smaller_container: 945px;
-
-
 // NAVBAR 
-$navbar_lineHeight: 1;
-$navlink_fontSize: 1rem;
-$navlink_paddingTB: 2.625rem;
-$navlink_paddingLR: 1.5rem;
+$navlink_color: $brand-dark;
+$navbar_lineHeight: 16px;
+$navlink_fontSize: 18px;
+$navlink_paddingTB: 32px; //2.625rem;
+$navlink_paddingLR: 24px;
 $navlink_bottomLineColor: $brand-blue;
 $navlink_bottomLineHeight: 3px;
+$navbar_border_bottom: solid 1px #CDCDCD;
+$navbar_box_shadow: inset 0 -1px 0 0 #CDCDCD;
+$navbar_logo_height: 57px;
+
+
+//BANNERS
+$big_banner_height: 456px;
+$big_banner_image: 'index.png';
+$big_banner_heading_width: 751px;
+$big_banner_heading_font_size: 48px;
+$big_banner_heading_font_weight: 500;
+$big_banner_heading_line_height: 1.17;
+
+$small_banner_height: 236px;
+$small_banner_image: 'header.png';
+$banner_overlay_opacity: rgba(0, 0, 0, 0.5);
 
 
 //INNER SECTIONS
@@ -34,5 +49,113 @@ $inner-section_passage_font_size: 16px;
 $inner-section_passage_line_height: 1.5;
 $inner-section_passage_max-width: $smaller_container;
 
+
+
+//PLACEHOLDERS
+$card_icons_width: 68px;
+$card_icons_height: 79px;
+$card_icons_width2: 128px;
+$card_icons_height2: 148px;
+
+//OUR FOCUS SECTION
+$focus_card_title_font_size:24px;
+$focus_card_title_font_weight: 500;
+$focus_card_title_line_height: 21px;
+$focus_card_title_margin_bottom: 6px;
+$focus_card_body_padding: 24px;
+$focus_card_text_max_height: 96px;
+$focus_card_text_font_size: 16px;
+$focus_card_text_line_height: 1.5;
+$focus_card_text_margin_bottom: 6px;
+$focus_card_text_align: left;
+$focus_card_image_height: 222px;
+$focus_card_image_margin_bottom: 16px;
+$focus_card_button_line_height:16px;
+$focus_card_button_padding: 14px 34px;
+$focus_card_button_width: 166px;
+
+
+// UPCOMING COURSES
+$upcoming_courses_background: rgba(76, 98, 168, 0.04);
+$upcoming_courses_card_margin_bottom: 48px;
+$upcoming_courses_card_body_padding: 25px 32px 26px 41px;
+$upcoming_courses_card_title_font_size: 24px;
+$upcoming_courses_card_title_font_weight: 500;
+$upcoming_courses_card_title_line_height: 21px;
+// $upcoming_courses_card_paragraph_font_size: 16px;
+// $upcoming_courses_card_paragraph_line_height: 1.5;
+$upcoming_courses_card_date_font_size: 16px;
+$upcoming_courses_card_date_line_height: 14px;
+$upcoming_courses_card_date_font_weight: 500;
+$upcoming_courses_card_icon_height: 148px;
+$upcoming_courses_card_icon_width: 128px;
+$upcoming_courses_card_media_detail_width: 244px;
+$upcoming_courses-button_width: 313px;
+
+
+//IMMERSIVE COURSES
+$immersive_unorder_list_margin_bottom: 24px;
+$immersive_card_body_padding: 88px 8px 72px 8px;
+$immersive_card_border-bottom: solid 1px #E1E1E1;
+$immersive_card_overlay_background: #F9F9F9;
+$immersive_card_media_detail_width: 668px;
+$immersive_card_title_line_height: 21px;
+$immersive_card_title_font_size: 24px;
+$immersive_card_title_font_weight: 500;
+$immersive_card_title_font_color: #283459;
+$immersive_card_paragraph_font_size: 16px;
+$immersive_card_paragraph_line_height: 1.5;
+$immersive_card_paragraph_color: $brand-dark;
+$immersive_card_date_font_size: 16px;
+$immersive_card_date_line_height: 14px;
+$immersive_card_date_font_weight: 500;
+$immersive_card_icon_margin_right: 24px;
+$immersive_card_anchor_line_height: 14px;
+$immersive_card_anchor_font_size: 16px;
+$immersive_card_anchor_font_weight: 500;
+$immersive_card_anchor_color: #283459;
+
+// MINI-COURSE
+
+$mini_course_page_icon_margin:  0 auto 8px auto;
+$mini_course_page_title_line_height: 35px;
+$mini_course_page_title_font_size: 40px;
+$mini_course_page_title_font_weight: 500;
+$mini_course_page_title_color: $brand-dark;
+$mini_course_page_title_text_align: center;
+
+$mini_course_right_card_width: 361px;
+$mini_course_right_card_inner_spacing: 24px;
+$mini_course_right_card_inner_border: 2px solid #E1E1E1;
+$mini_course_right_card_title_line_height: 17px;
+$mini_course_right_card_title_font_size: 16px;
+$mini_course_right_card_title_margin_bottom: 8px;
+$mini_course_right_card_title_font_weight: normal;
+$mini_course_right_card_date_line_height: 14px;
+$mini_course_right_card_date_font_size: 16px;
+$mini_course_right_card_date_font_weight: 500;
+$mini_course_right_card_date_color: $brand-dark;
+$mini_course_right_card_price_off_line_height: 8px;
+$mini_course_right_card_price_off_color: #9B9B9B; 
+$mini_course_right_card_price_off_margin_right: 16px;
+$mini_course_right_card_subcription_text_font_size: 16px;
+$mini_course_right_card_subcription_text_line_height:1.5;
+$mini_course_right_card_subcription_text_color: $brand-dark;
+$mini_course_right_card_subcription_margin_bottom: 24px;
+$mini_course_right_card_subcription_input_height: 44px;
+$mini_course_right_card_subcription_input_border_radius: 3px;
+
+$mini_course_left_card_width: 653px;
+$mini_course_left_card_title_font_size: 24px;
+$mini_course_left_card_title_line_height: 21px;
+$mini_course_left_card_title_font_weight: 500;
+$mini_course_left_card_title_margin_bottom: 24px;
+$mini_course_left_card_paragraph_font_size: 16px;
+$mini_course_left_card_paragraph_line_height: 1.88;
+$mini_course_left_card_paragraph_color: $brand-dark;
+$mini_course_left_card_list_items_color: $brand-dark;
+$mini_course_left_card_list_items_line_height: 17px;
+$mini_course_left_card_list_items_font_size: 16px;
+$mini_course_left_card_list_items_margin_bottom: 24px;
 //BUTTON
 $button-brand-color: $brand-blue;
