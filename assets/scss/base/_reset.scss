@@ -5,6 +5,8 @@
 body{
   margin: 0px;
   padding: 0px;
+  color: $brand-dark;
+  font-family: 'BryantMedium';
 }
 
 ul, li{
@@ -17,9 +19,16 @@ a{
 	outline: 0;
 }
 
+.no-bd{
+  border: none !important;
+}
+
 .btn{
   margin: 0 !important;
   box-shadow: none !important;
   text-transform: capitalize !important;
 }
-
+input[type=text].input-alternate:hover,
+input[type=text].input-alternate:focus{
+  box-shadow: none !important;
+}

@@ -1,7 +1,13 @@
-.col--361{
-    width: 361px;
+//CONTAINERS
+.container__smaller{
+    margin: 0 auto;
+    @media (min-width: 991px) {
+        max-width: $smaller_container;
+    }
 }
 
+
+// INNER SECTION PADDING
 .inner-section{
     padding: $inner-section-gap 0;
 }
@@ -21,30 +27,337 @@
     line-height: $inner-section_passage_line_height;
     margin: 0 auto;
     text-align: center;
+    font-family: $BryantAlt;
     @media (min-width: 991px) {
         max-width: $inner-section_passage_max-width;
     }
 }
 
-.container__smaller{
-    margin: 0 auto;
-    @media (min-width: 991px) {
-        max-width: $smaller_container;
+
+//PLACEHOLDERS
+%card-icons {
+    width: $card_icons_width;
+    height: $card_icons_height;    
+}
+%card-icons-big{
+    width: $card_icons_width2;
+    height: $card_icons_height2;
+}
+
+//OUR FOCUS SECTION
+.card--focus {
+    
+    .card-title{
+        color: $brand-dark;
+        font-size: $focus_card_title_font_size;
+        font-weight: $focus_card_title_font_weight !important;
+        line-height: $focus_card_title_line_height;
+        margin-bottom: $focus_card_title_margin_bottom;
+    }
+
+    .card-body{
+        padding: $focus_card_body_padding;
+    }
+    
+    .card-text{
+        max-height: $focus_card_text_max_height;
+        font-size: $focus_card_text_font_size;
+        line-height: $focus_card_text_line_height;
+        margin-bottom: $focus_card_text_margin_bottom !important;
+        text-align: $focus_card_text_align;
+        font-family: $BryantAlt;
+    }
+    
+    .img-fluid{
+        @media (min-width: 991px){
+            height: $focus_card_image_height;
+            margin-bottom: $focus_card_image_margin_bottom;
+            width: 100%;
+        }
+    }
+    
+    .btn-brand{
+        line-height: $focus_card_button_line_height;
+        padding: $focus_card_button_padding;
+        width: $focus_card_button_width;
+    }
+
+}
+
+
+//UPCOMING COURSES
+#upcoming_courses{
+    background-color: $upcoming_courses_background;
+}
+
+.card--upc{
+    margin-bottom: $upcoming_courses_card_margin_bottom;
+    .card-body{
+        padding: $upcoming_courses_card_body_padding;
+    }
+
+    .media-title{
+        font-size: $upcoming_courses_card_title_font_size !important;
+        font-weight: $upcoming_courses_card_title_font_weight !important;
+        line-height: $upcoming_courses_card_title_line_height;
+        color: $brand-dark !important;
+    }
+    
+    .course-icon{
+        @extend %card-icons;
+    }
+    
+    // .media-text{
+    //     font-size: $upcoming_courses_card_paragraph_font_size;
+    //     line-height: $upcoming_courses_card_paragraph_line_height;
+    // }
+    
+    .media-date{
+        font-size: $upcoming_courses_card_date_font_size;
+        font-weight: $upcoming_courses_card_date_font_weight;
+        line-height: $upcoming_courses_card_date_line_height;
+        color: $brand-dark !important;
+    }
+    
+    .media-detail{
+        width: $upcoming_courses_card_media_detail_width !important;
+    }
+    
+    .media{
+        justify-content: space-between;
+    }
+    .course-icon{
+        margin-right: 57px !important;
+    }
+
+}
+
+
+%btn-313p{
+    border-radius: 3px !important;
+    box-shadow: 2px 2px 4px 0 rgba(155, 155, 155, 0.5) !important;
+    margin: 0 auto !important;
+    max-width: $upcoming_courses-button_width;
+    padding: 14px !important;
+    font-size: 18px !important;
+    line-height: 16px;
+}
+
+.upcoming_courses-btn{
+    @extend %btn-313p;
+}
+
+
+//CONTACT FORM
+.contact-form {
+    input{
+        width: 100%;
+        max-width: 494px;
+        height: 54px !important;
+        border-radius: 3px;
+        background-color: #FFFFFF;
+        border: solid 1px #CDCDCD !important;
+        border-bottom: solid 1px #CDCDCD !important;
+        box-shadow: none !important;
+        font-size: 24px !important;
+        color: #CDCDCD;
+        line-height: 26px;
+
+    }
+    .form-group {
+        margin-bottom: 48px;
+    }
+    .courses-btn{
+        @extend %btn-313p;
     }
 }
 
-#upcoming_courses{
-    background-color: rgba(76, 98, 168, 0.04);
-}
 
-.contact-form input{
-    width: 494px;
-    height: 54px !important;
-    border-radius: 3px;
-    background-color: #ffffff;
-    border: solid 1px #cdcdcd;
-}
-
-.contact-form .form-group {
+//IMMERSIVE COURSE PAGE
+ul.immersive{
     margin-bottom: 24px;
+}
+
+.card--imc{
+    background-color: transparent;
+    box-shadow: none !important;
+    
+    .card-body{
+        padding: $immersive_card_body_padding;
+        position: relative;
+        z-index: 1;
+        border-bottom: $immersive_card_border-bottom;
+    }
+    .card__overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        background: $immersive_card_overlay_background;
+    }
+    .media{
+        justify-content: space-between;
+    }
+    .media--detail{
+        width: $immersive_card_media_detail_width;
+    }
+    .media--title{
+        line-height: $immersive_card_title_line_height;
+        font-size: $immersive_card_title_font_size !important;
+        font-weight: $immersive_card_title_font_weight !important;
+        color: $immersive_card_title_font_color;
+    }
+    .media--text{
+        font-size: $immersive_card_paragraph_font_size;
+        line-height: $immersive_card_paragraph_line_height;
+        text-align: left;
+        color: $immersive_card_paragraph_color;
+        font-family: $BryantAlt;
+    }
+    .media--anchor{
+        line-height: $immersive_card_anchor_line_height;
+        font-size: $immersive_card_anchor_font_size;
+        font-weight: $immersive_card_anchor_font_weight;
+        text-align: justify;
+        color: $immersive_card_anchor_color;
+    }
+    .media--date{
+        line-height: $immersive_card_date_line_height;
+        font-size: $immersive_card_date_font_size;
+        font-weight: $immersive_card_date_font_weight;
+        text-align: left;
+        color: $immersive_card_paragraph_color;
+    }
+    .immersive-icon{
+        @extend %card-icons-big;
+        margin-right: $immersive_card_icon_margin_right !important;
+    }
+}
+
+
+
+// MINI COURSE PAGE
+.mini_course__icon{
+    @extend %card-icons-big;
+    margin: $mini_course_page_icon_margin;
+}
+
+.mini_course__title{
+    line-height: $mini_course_page_title_line_height;
+    font-size: $mini_course_page_title_font_size;
+    font-weight: $mini_course_page_title_font_weight;
+    text-align: $mini_course_page_title_text_align;
+    color: $mini_course_page_title_color;
+    margin-bottom: 0 !important;
+}
+
+
+.card--mini_course_right{
+    background-color: #F9F9F9;
+    border-radius: 3px;
+    margin-bottom: 48px;
+    width: $mini_course_right_card_width;
+    box-shadow: 2px 2px 4px 0 rgba(155, 155, 155, 0.5) !important;
+    border: solid 1px #E1E1E1 !important;
+    .media{
+        padding-top: $mini_course_right_card_inner_spacing;
+        padding-bottom: $mini_course_right_card_inner_spacing;
+        border-bottom: $mini_course_right_card_inner_border;
+    }
+    .btn.btn-block.btn-brand{
+        padding: 14px !important;
+        font-size: 18px !important;
+        line-height: 16px;
+        border-radius: 3px;
+    }
+    .card__title{
+        line-height: $mini_course_right_card_title_line_height !important;
+        font-size: $mini_course_right_card_title_font_size !important;
+        text-align: left;
+        color: $brand-dark;
+        font-family: $BryantAlt;
+        margin-bottom: $mini_course_right_card_title_margin_bottom !important;
+        font-weight: $mini_course_right_card_title_font_weight !important;
+    }
+    .card__date{
+        line-height: $mini_course_right_card_date_line_height;
+        font-size: $mini_course_right_card_date_font_size;
+        font-weight: $mini_course_right_card_date_font_weight;
+        text-align: left;
+        color: $mini_course_right_card_date_color;
+    }
+    .card__price-off{
+        line-height: $mini_course_right_card_price_off_line_height;
+
+        .price{
+            color: $mini_course_right_card_price_off_color;
+            margin-right: $mini_course_right_card_price_off_margin_right;
+            text-decoration: line-through;
+        }
+        
+    }
+    .card-subscription__text{
+        font-size: $mini_course_right_card_subcription_text_font_size;
+        line-height: $mini_course_right_card_subcription_text_line_height;
+        text-align: left;
+        color: $mini_course_right_card_subcription_text_color;
+        margin-bottom: $mini_course_right_card_subcription_margin_bottom !important;
+        font-family: $BryantAlt;
+    }
+    .form-group{
+        margin-bottom: $mini_course_right_card_subcription_margin_bottom;
+    }
+    .input-alternate{
+        height: $mini_course_right_card_subcription_input_height !important;
+        border-radius: $mini_course_right_card_subcription_input_border_radius;
+        border: solid 1px #E1E1E1;
+        border-bottom: 1px solid #E1E1E1 !important;
+        box-shadow: none !important;
+        background-color: #FFFFFF;
+        &:focus, &:hover{
+            box-shadow: none !important;
+        }
+    }
+    
+}
+
+.mini-course__left{
+    width: $mini_course_left_card_width;
+    .course__title{
+        line-height: $mini_course_left_card_title_line_height;
+        font-size: $mini_course_left_card_title_font_size;
+        font-weight: $mini_course_left_card_title_font_weight;
+        margin-bottom: $mini_course_left_card_title_margin_bottom;
+    }
+
+    .course__passage{
+        font-size: $mini_course_left_card_paragraph_font_size;
+        line-height: $mini_course_left_card_paragraph_line_height;
+        text-align: left;
+        color: $mini_course_left_card_paragraph_color;
+        font-family: $BryantAlt;
+    }
+    .inner-section{
+        padding-top: 0 !important;
+    }
+    ul{
+        margin-bottom: 0 !important;
+        li{
+            list-style-type: disc;
+            line-height: $mini_course_left_card_list_items_line_height;
+            font-size: $mini_course_left_card_list_items_font_size;
+            color: $mini_course_left_card_list_items_color;
+            margin-bottom: $mini_course_left_card_list_items_margin_bottom;
+            font-family: $BryantAlt;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        div{
+            line-height: 1.88;
+        }
+    }
 }

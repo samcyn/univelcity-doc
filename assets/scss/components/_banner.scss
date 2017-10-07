@@ -1,16 +1,25 @@
-.banner{
-    background-image: url(../../assets/img/banners/index.png);
+.banner-big{
+    background-image: url(../../assets/img/banners/#{$big_banner_image});
     height: auto;
     position: relative;
     @media (min-width: 991px){
-        height: 456px;
+        height: $big_banner_height;
     }
 }
 
-.banner__overlay{
+.banner-small{
+    background-image: url(../../assets/img/banners/#{$small_banner_image});
+    height: auto;
+    position: relative;
+    @media (min-width: 991px){
+        height: $small_banner_height;
+    }
+}
+
+.banner-big__overlay, .banner-small__overlay{
     align-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.5);
+    background:  $banner_overlay_opacity;
     bottom: 0;
     color: #FFF;
     display: flex;
@@ -23,13 +32,32 @@
     width: 100%;
 }
 
-.banner__heading{
-    max-width: 751px;
+// .banner-small__overlay{
+//     align-content: center;
+//     align-items: center;
+// }
+
+.banner-big__heading{
+    max-width: $big_banner_heading_width;
     h3{
-        font-size: 48px;
-        font-weight: 500;
-        line-height: 1.34;
+        font-size: $big_banner_heading_font_size;
+        font-weight: $big_banner_heading_font_weight;
+        line-height: $big_banner_heading_line_height;
         text-align: left;
         color: #ffffff;
     }
+}
+
+.banner-small__iconContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.banner-small__heading{
+    margin-left: 40px;
+    line-height: 35px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'BryantMedium';
 }
