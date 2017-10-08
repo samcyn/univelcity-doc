@@ -30,8 +30,6 @@
 .nav-item.active a:before,
 .nav-item.active a:after
 {
-	border-top: $navlink_bottomLineHeight solid $navlink_bottomLineColor;
-    bottom: 0px;
     content: "";
     height: 0;
 	left: 50%;
@@ -39,7 +37,21 @@
 	position: absolute;
 	transition: width 0.5s ease 0s;
 	width: calc(100% - #{$navlink_paddingLR * 1.5});
+	z-index: 10;
 }
+
+.nav-item.active a:before{
+	border-radius: 20px 20px 0 0;
+	border-top: $navlink_bottomLineHeight solid $navlink_bottomLineColor;
+    bottom: 1px;
+}
+
+.nav-item.active a:after{
+	border-radius: 0 0 20px 20px;
+	border-bottom: $navlink_bottomLineHeight solid $navlink_bottomLineColor;
+    bottom: 0px;
+}
+
 
 .nav-item{
 	position: relative;

@@ -155,8 +155,6 @@ textarea.md-textarea {
 /* line 30, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
 .nav-item.active a:before,
 .nav-item.active a:after {
-  border-top: 3px solid #4C62A8;
-  bottom: 0px;
   content: "";
   height: 0;
   left: 50%;
@@ -164,14 +162,29 @@ textarea.md-textarea {
   position: absolute;
   transition: width 0.5s ease 0s;
   width: calc(100% - 36px);
+  z-index: 10;
 }
 
-/* line 44, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
+/* line 43, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
+.nav-item.active a:before {
+  border-radius: 20px 20px 0 0;
+  border-top: 3px solid #4C62A8;
+  bottom: 1px;
+}
+
+/* line 49, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
+.nav-item.active a:after {
+  border-radius: 0 0 20px 20px;
+  border-bottom: 3px solid #4C62A8;
+  bottom: 0px;
+}
+
+/* line 56, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
 .nav-item {
   position: relative;
 }
 
-/* line 47, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
+/* line 59, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_navbar.scss */
 .nav-item:last-child .nav-link {
   padding-right: 0 !important;
 }
