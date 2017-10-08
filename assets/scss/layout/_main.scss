@@ -69,9 +69,9 @@
     }
     
     .img-fluid{
+        margin-bottom: $focus_card_image_margin_bottom;
         @media (min-width: 991px){
             height: $focus_card_image_height;
-            margin-bottom: $focus_card_image_margin_bottom;
             width: 100%;
         }
     }
@@ -79,7 +79,14 @@
     .btn-brand{
         line-height: $focus_card_button_line_height;
         padding: $focus_card_button_padding;
-        width: $focus_card_button_width;
+        width: 100%;
+        @media (min-width: 425px){
+            width: $focus_card_button_width;
+        }
+        
+    }
+    @media (max-width: 767px){
+        margin-bottom: 30px;
     }
 
 }
@@ -92,7 +99,13 @@
 
 .card--upc{
     margin-bottom: $upcoming_courses_card_margin_bottom;
+    @media(max-width: 991px){
+        margin-bottom: $upcoming_courses_card_margin_bottom - 18 !important;
+    }
     .card-body{
+        @media(max-width: 991px){
+            padding: 24px;
+        }
         padding: $upcoming_courses_card_body_padding;
     }
 
@@ -127,6 +140,9 @@
         justify-content: space-between;
     }
     .course-icon{
+        @media(max-width: 991px){
+            margin-right: 15px !important;
+        }
         margin-right: 57px !important;
     }
 
@@ -200,9 +216,23 @@ ul.immersive{
     }
     .media{
         justify-content: space-between;
+        @media (max-width: 567px){
+            flex-wrap: wrap;
+        }
+    }
+    .immersive__icon{
+        @media (max-width: 567px){
+            flex: 1 0 100%;
+            justify-content: center;
+            order: 1;
+        }
     }
     .media--detail{
         width: $immersive_card_media_detail_width;
+        @media (max-width: 567px){
+            width: auto;
+            order: 3;
+        }
     }
     .media--title{
         line-height: $immersive_card_title_line_height;
@@ -224,6 +254,12 @@ ul.immersive{
         text-align: justify;
         color: $immersive_card_anchor_color;
     }
+    .media__schedule{
+        @media (max-width: 567px){
+           order: 2;
+           margin-bottom: 30px;
+        }
+    }
     .media--date{
         line-height: $immersive_card_date_line_height;
         font-size: $immersive_card_date_font_size;
@@ -234,6 +270,10 @@ ul.immersive{
     .immersive-icon{
         @extend %card-icons-big;
         margin-right: $immersive_card_icon_margin_right !important;
+        @media (max-width: 567px){
+            margin-bottom: 30px;
+            margin-right: 0 !important;
+        }
     }
 }
 
@@ -256,12 +296,20 @@ ul.immersive{
 
 
 .card--mini_course_right{
-    background-color: #F9F9F9;
-    border-radius: 3px;
-    margin-bottom: 48px;
+    background-color: transparent;
+    box-shadow: none !important;
     width: $mini_course_right_card_width;
-    box-shadow: 2px 2px 4px 0 rgba(155, 155, 155, 0.5) !important;
-    border: solid 1px #E1E1E1 !important;
+    @media (max-width: 1076px) {
+        width:auto;
+    }
+    .card-body{
+        margin-bottom: 48px;
+        background-color: #F9F9F9;
+        border-radius: 3px;
+        box-shadow: 2px 2px 4px 0 rgba(155, 155, 155, 0.5) !important;
+        border: solid 1px #E1E1E1 !important;
+    }
+   
     .media{
         padding-top: $mini_course_right_card_inner_spacing;
         padding-bottom: $mini_course_right_card_inner_spacing;
@@ -326,6 +374,9 @@ ul.immersive{
 
 .mini-course__left{
     width: $mini_course_left_card_width;
+    @media (max-width: 1076px) {
+        width: auto;
+    }
     .course__title{
         line-height: $mini_course_left_card_title_line_height;
         font-size: $mini_course_left_card_title_font_size;
@@ -359,5 +410,30 @@ ul.immersive{
         div{
             line-height: 1.88;
         }
+    }
+}
+
+//CONTACT US
+.contact-wrap{
+    border: 1px solid #CDCDCD;
+    padding: 48px 96px;
+    @media(max-width: 991px){
+        padding: 24px !important;
+    }
+    .contact-wrap--list{
+        margin-bottom: 0 !important;
+    }
+    .contact-wrap--items{
+        margin-bottom: 92px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    .contact-wrap--detail{
+        margin-left: 16.2px;
+        font-family: $BryantAlt;
+        font-size: 16px;
+        text-align: left;
+        color: $brand-dark;
     }
 }
