@@ -227,7 +227,12 @@ textarea.md-textarea {
   background-image: url(../../assets/img/banners/header2.png);
 }
 
-/* line 27, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+/* line 26, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+.banner-small--accelerated {
+  background-image: url(../../assets/img/banners/header3.png);
+}
+
+/* line 30, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
 .banner-big__overlay, .banner-small__overlay {
   align-content: center;
   align-items: center;
@@ -244,12 +249,12 @@ textarea.md-textarea {
   width: 100%;
 }
 
-/* line 48, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+/* line 51, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
 .banner-big__heading {
   max-width: 751px;
 }
 
-/* line 50, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+/* line 53, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
 .banner-big__heading h3 {
   font-size: 48px;
   font-weight: 500;
@@ -258,7 +263,7 @@ textarea.md-textarea {
   color: #ffffff;
 }
 
-/* line 59, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+/* line 62, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
 .banner-small__iconContainer {
   display: flex;
   justify-content: center;
@@ -267,13 +272,13 @@ textarea.md-textarea {
 }
 
 @media (max-width: 567px) {
-  /* line 59, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+  /* line 62, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
   .banner-small__iconContainer {
     flex-direction: column;
   }
 }
 
-/* line 68, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+/* line 71, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
 .banner-small__heading {
   line-height: 35px;
   font-size: 40px;
@@ -283,7 +288,7 @@ textarea.md-textarea {
 }
 
 @media (max-width: 567px) {
-  /* line 68, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
+  /* line 71, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_banner.scss */
   .banner-small__heading {
     margin-top: 40px;
     margin-left: 0px;

@@ -23,6 +23,9 @@
 .banner-small--about{
     background-image: url(../../assets/img/banners/#{$small_banner_image2});
 }
+.banner-small--accelerated{
+    background-image: url(../../assets/img/banners/#{$small_banner_image3});
+}
 
 .banner-big__overlay, .banner-small__overlay{
     align-content: center;
