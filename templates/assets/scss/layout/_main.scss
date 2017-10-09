@@ -212,6 +212,9 @@ ul.immersive{
         position: relative;
         z-index: 1;
         border-bottom: $immersive_card_border-bottom;
+        @media(max-width: 991px){
+            padding-top: 48px !important;
+        }
     }
     .card__overlay{
         position: absolute;
@@ -240,7 +243,7 @@ ul.immersive{
         width: $immersive_card_media_detail_width;
         @media (max-width: 567px){
             width: auto;
-            order: 3;
+            order: 2;
         }
     }
     .media--title{
@@ -265,7 +268,7 @@ ul.immersive{
     }
     .media__schedule{
         @media (max-width: 567px){
-           order: 2;
+           order: 3;
            margin-bottom: 30px;
         }
     }
