@@ -56,6 +56,9 @@
         line-height: $big_banner_heading_line_height;
         text-align: left;
         color: #ffffff;
+        @media(max-width: 991px){
+            font-size: $big_banner_heading_font_size * 2.2 / 3;
+        }
     }
 }
 

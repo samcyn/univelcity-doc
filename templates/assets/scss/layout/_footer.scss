@@ -16,15 +16,15 @@ footer{
 		align-items: center;
 		flex-wrap: wrap;
 		[class*='inlineblockList__']{
-			&:first-child{
-				flex: 0 1 50%;
+		
+			&:nth-child(odd){
+				flex: 0 1 66%;
+			}
+			&:nth-child(even){
+				flex: 0 1 33%;
 			}
 			width: initial;
-			flex: 1 0 50%;
 			margin-bottom: 20px;
-			// &:last-child ul{
-			// 	justify-content: space-around !important;
-			// }
 		}
 	}
 }
@@ -71,7 +71,6 @@ footer{
 .inlineblockList__center a{
 	opacity: 1;
 }
-
 
 .copyright{
 	text-align: center;

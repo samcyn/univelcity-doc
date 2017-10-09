@@ -1,3 +1,6 @@
+.navbar.navbar-light .navbar-nav .nav-item.active >.nav-link {
+    background-color: transparent;
+}
 // NAV BAR 1rem == 16px;
 
 .navbar{
@@ -7,57 +10,67 @@
 	padding: 0 1rem;
 	//border-bottom: $navbar_border_bottom;
 	box-shadow: $navbar_box_shadow !important;
-}
 
-.navbar-brand{
-	-webkit-align-self: center !important;
-    -ms-flex-item-align: center !important;
-	align-self: center !important;
-	padding-top: 0 !important;
-	padding-bottom: 0 !important;
-	img{
-		max-height: $navbar_logo_height !important;
-	}
-}
-
-.nav-link{
-	color: $navlink_color !important; 
-	font-size: $navlink_fontSize;
-	line-height: $navbar_lineHeight !important;
-	padding: $navlink_paddingTB $navlink_paddingLR !important;
-}
-
-.nav-item.active a:before,
-.nav-item.active a:after
-{
-    content: "";
-    height: 0;
-	left: 50%;
-	margin-left: calc(-0.5 * calc(100% - #{$navlink_paddingLR * 1.5}));
-	position: absolute;
-	transition: width 0.5s ease 0s;
-	width: calc(100% - #{$navlink_paddingLR * 1.5});
-	z-index: 10;
-}
-
-.nav-item.active a:before{
-	border-radius: 20px 20px 0 0;
-	border-top: $navlink_bottomLineHeight solid $navlink_bottomLineColor;
-    bottom: 1px;
-}
-
-.nav-item.active a:after{
-	border-radius: 0 0 20px 20px;
-	border-bottom: $navlink_bottomLineHeight solid $navlink_bottomLineColor;
-    bottom: 0px;
-}
-
-
-.nav-item{
-	position: relative;
-	&:last-child{
-		.nav-link{
-			padding-right: 0 !important;
+	.navbar-brand{
+		-webkit-align-self: center !important;
+		-ms-flex-item-align: center !important;
+		align-self: center !important;
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+		@media(max-width: 991px){
+			padding-top: 5px !important;
+			padding-bottom: 5px !important;
+		}
+		img{
+			max-height: $navbar_logo_height !important;
+			@media(max-width: 991px){
+				height: 40px;
+			}
 		}
 	}
+
+	.nav-link{
+		color: $navlink_color !important; 
+		font-size: $navlink_fontSize;
+		line-height: $navbar_lineHeight !important;
+		padding: $navlink_paddingTB $navlink_paddingLR !important;
+	}
+
+	.nav-item.active a:before,
+	.nav-item.active a:after
+	{
+		content: "";
+		height: 0;
+		left: 50%;
+		margin-left: calc(-0.5 * calc(100% - #{$navlink_paddingLR * 1.5}));
+		position: absolute;
+		transition: width 0.5s ease 0s;
+		width: calc(100% - #{$navlink_paddingLR * 1.5});
+		z-index: 10;
+	}
+
+	.nav-item.active a:before{
+		border-radius: 20px 20px 0 0;
+		border-top: $navlink_bottomLineHeight solid $navlink_bottomLineColor;
+		bottom: 1px;
+	}
+
+	.nav-item.active a:after{
+		border-radius: 0 0 20px 20px;
+		border-bottom: $navlink_bottomLineHeight solid $navlink_bottomLineColor;
+		bottom: 0px;
+	}
+
+	.nav-item{
+		position: relative;
+		&:last-child{
+			.nav-link{
+				padding-right: 0 !important;
+			}
+		}
+	}
+
 }
+
+
+
