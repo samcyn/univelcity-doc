@@ -116,7 +116,7 @@ var app = {
 
     },
     hoverOnSidebar: function(){
-        $(document).on('mouseenter', '.nav-item ', function(e){
+        $(document).on('mouseenter', '.menus .nav-item ', function(e){
             $('.menus').find('li').removeClass('active');
             $(this).addClass('active');
         });
