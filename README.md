@@ -11,6 +11,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 Install all dependencies by running: 
 ```
+cd assets
+
 npm install
 
 ```
