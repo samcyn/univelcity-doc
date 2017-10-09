@@ -433,7 +433,7 @@ textarea.md-textarea {
   height: 100%;
   justify-content: center;
   left: 0;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
   width: 100%;
@@ -442,29 +442,31 @@ textarea.md-textarea {
 
 /* line 17, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_loader.scss */
 .right_svg {
+  transform-origin: center;
   animation: revolvler-l 1s ease-in-out alternate infinite;
 }
 
-/* line 20, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_loader.scss */
+/* line 21, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_loader.scss */
 .left_svg {
+  transform-origin: center;
   animation: revolvler-r 1s ease-in-out alternate infinite;
 }
 
 @keyframes revolvler-r {
   from {
-    transform: translateX(0);
+    transform: rotateX(0) translateX(0) scale(0.9);
   }
   to {
-    transform: translateX(33px);
+    transform: rotateX(180deg) translateX(45px) scale(1.5);
   }
 }
 
 @keyframes revolvler-l {
   from {
-    transform: translateX(0);
+    transform: rotateX(0) translateX(0) scale(0.9);
   }
   to {
-    transform: translateX(-33px);
+    transform: rotateX(180deg) translateX(-45px) scale(1.5);
   }
 }
 
