@@ -10,6 +10,9 @@
 // INNER SECTION PADDING
 .inner-section{
     padding: $inner-section-gap 0;
+    @media(max-width: 991px){
+        padding: ($inner-section-gap/2) 0;
+    }
 }
 
 .inner-section__heading{
@@ -19,6 +22,9 @@
     line-height: $inner-section_heading_line_height;
     margin-bottom: $inner-section_heading_margin_bottom;
     text-align: center;
+    @media(max-width: 991px){
+        font-size: $inner-section_heading_font_size * 2.2 / 3;
+    }
 }
 
 .inner-section__passage{
@@ -167,8 +173,7 @@
 //CONTACT FORM
 .contact-form {
     input{
-        width: 100%;
-        max-width: 494px;
+        @extend %btn-313p;
         height: 54px !important;
         border-radius: 3px;
         background-color: #FFFFFF;
@@ -178,7 +183,11 @@
         font-size: 24px !important;
         color: #CDCDCD;
         line-height: 26px;
-
+        @media(min-width: 767px){
+            width: 100%;
+            max-width: 494px;
+            
+        }
     }
     .form-group {
         margin-bottom: 48px;
@@ -413,7 +422,7 @@ ul.immersive{
     }
 }
 
-//CONTACT US
+//CONTACT US PAGE
 .contact-wrap{
     border: 1px solid #CDCDCD;
     padding: 48px 96px;
