@@ -1,4 +1,10 @@
 var app = {
+    loaderController: function(){
+        setTimeout(function(){
+           $('.loader').fadeOut('slow');
+        }, 5000);
+       
+    },
 	hoverController: function(){
         $('.card-body').mouseenter(function(e){
             
@@ -108,5 +114,12 @@ var app = {
             }
         });
 
+    },
+    hoverOnSidebar: function(){
+        $(document).on('mouseenter', '.nav-item ', function(e){
+            $('.menus').find('li').removeClass('active');
+            $(this).addClass('active');
+        });
     }
+
 }
