@@ -6,6 +6,7 @@ $brand-grey: #E1E1E1;
 
 //FONTS
 $BryantAlt: 'BryantRegularAlt';
+$BryantMedium: 'BryantMedium';
 
 //CONTAINER
 $smaller_container: 945px;
@@ -39,7 +40,7 @@ $small_banner_height: 236px;
 $small_banner_image: 'header.png';
 $small_banner_image2: 'header2.png';
 $small_banner_image3: 'header3.png';
-$banner_overlay_opacity: rgba(0, 0, 0, 0.5);
+$banner_overlay_opacity: rgba(0, 0, 0, -0.4);
 
 
 //INNER SECTIONS
@@ -51,7 +52,6 @@ $inner-section_heading_margin_bottom: 48px;
 $inner-section_passage_font_size: 16px;
 $inner-section_passage_line_height: 1.5;
 $inner-section_passage_max-width: $smaller_container;
-
 
 
 //PLACEHOLDERS
@@ -118,8 +118,8 @@ $immersive_card_anchor_font_size: 16px;
 $immersive_card_anchor_font_weight: 500;
 $immersive_card_anchor_color: #283459;
 
-// MINI-COURSE
 
+// MINI-COURSE
 $mini_course_page_icon_margin:  0 auto 8px auto;
 $mini_course_page_title_line_height: 35px;
 $mini_course_page_title_font_size: 40px;
@@ -160,5 +160,6 @@ $mini_course_left_card_list_items_color: $brand-dark;
 $mini_course_left_card_list_items_line_height: 17px;
 $mini_course_left_card_list_items_font_size: 16px;
 $mini_course_left_card_list_items_margin_bottom: 24px;
+
 //BUTTON
 $button-brand-color: $brand-blue;

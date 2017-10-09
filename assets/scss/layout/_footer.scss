@@ -4,6 +4,9 @@ footer{
 	padding-bottom: 17px;
 	min-height: 340px;
 	color: #FFF;
+	@media(max-width: 991px){
+		padding-top: 48px;
+	}
 }
 
 .inlineblockList{
@@ -13,18 +16,40 @@ footer{
 	margin-bottom: 0;
 
 	@media(max-width: 991px){
-		align-items: center;
+		// align-items: center;
 		flex-wrap: wrap;
 		[class*='inlineblockList__']{
-		
-			&:nth-child(odd){
-				flex: 0 1 66%;
+			justify-content: space-between;
+			// &:nth-child(odd){
+			// 	flex: 0 1 66%;
+			// }
+			// &:nth-child(even){
+			// 	flex: 0 1 33%;
+			// }
+			&:nth-child(1){
+				flex: 0 1 100%;
+				div{
+					text-align: center;
+				}
 			}
-			&:nth-child(even){
-				flex: 0 1 33%;
+			&:nth-child(2){
+				flex: 0 1 70%;
 			}
+			&:nth-child(3){
+				flex: 0 1 30%;
+			}
+			&:nth-child(4){
+				flex: 0 1 70%;
+			}
+			&:nth-child(5){
+				flex: 0 1 30%;
+			}
+			&:nth-child(6){
+				display: none;
+			}
+
 			width: initial;
-			margin-bottom: 20px;
+			margin-bottom: 24px;
 		}
 	}
 }
@@ -80,4 +105,7 @@ footer{
 	font-size: 14px;
 	font-weight: 500;
 	color: #FFF;
+	@media(max-width: 991px){
+		padding-top: 70px;
+	}
 }
