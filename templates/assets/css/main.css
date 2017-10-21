@@ -1041,6 +1041,152 @@ ul.immersive {
   color: #4A4A4A;
 }
 
+/* line 456, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+#store [class*='col-'] {
+  margin-bottom: 48px;
+}
+
+/* line 458, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+#store [class*='col-']:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 767px) {
+  /* line 462, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  #store [class*='col-']:nth-last-child(-n+3) {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* line 468, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store {
+  box-shadow: none !important;
+}
+
+/* line 470, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store .img-fluid {
+  width: 100% !important;
+}
+
+/* line 473, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store .card-body {
+  padding: 16px 24px 24px 24px;
+  border: solid 1px #CDCDCD !important;
+  border-top: none !important;
+}
+
+/* line 478, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store .card-title {
+  line-height: 21px;
+  font-family: "BryantMedium";
+  font-size: 24px;
+  font-weight: 500;
+  color: #4A4A4A;
+  margin-bottom: 16px;
+}
+
+/* line 486, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store .card-price {
+  line-height: 18px;
+  font-family: "BryantMedium";
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: #4A4A4A;
+  margin-bottom: 13px !important;
+}
+
+/* line 494, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store .form-group {
+  margin-bottom: 24px;
+}
+
+/* line 497, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store label {
+  line-height: 12px;
+  font-family: "BryantMedium";
+  font-size: 14px;
+  font-weight: 500;
+  color: #CDCDCD;
+  margin-bottom: 4px !important;
+}
+
+/* line 506, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store select {
+  border-radius: 3px;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+@media (min-width: 1024px) {
+  /* line 514, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  .card--store .card--store__form .col:not(:last-child) {
+    width: 98px;
+    flex: 0 0 98px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  /* line 523, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  .card--store .card--store__form .col:not(:last-child) {
+    width: 90px;
+    flex: 0 0 90px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 532, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  .card--store .card--store__form .col {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+/* line 539, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store .swatches {
+  justify-content: space-between;
+}
+
+/* line 541, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store .swatches label {
+  width: 32px;
+  height: 32px;
+  border-radius: 2px;
+  margin-bottom: 0 !important;
+  cursor: pointer;
+}
+
+/* line 546, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store .swatches label.bg-dark {
+  background: #000000;
+}
+
+/* line 549, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store .swatches label.bg-blue {
+  background: #2E547B;
+}
+
+/* line 552, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store .swatches label.bg-white {
+  background: #FFFFFF;
+  border: solid 1px #9B9B9B;
+}
+
+/* line 558, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store .swatches input[type='radio'] {
+  display: none;
+}
+
+/* line 562, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--store .btn-brand {
+  line-height: 16px;
+  font-family: "BryantMedium";
+  font-size: 18px;
+  font-weight: bold;
+  max-width: 200px;
+  padding: 16px 0;
+  margin: 0 auto !important;
+}
+
 /* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
 footer {
   background-color: #283459;
