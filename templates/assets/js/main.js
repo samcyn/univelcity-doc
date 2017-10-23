@@ -2,6 +2,7 @@ var app = {
     loaderController: function(){
         setTimeout(function(){
            $('.loader').fadeOut('slow');
+          // $('.loader').addClass('zoom');
         }, 5000);
        
     },
@@ -125,6 +126,16 @@ var app = {
         $('.swatches :radio').on('change', function(){
             $(this).parents('.card--store').find('.card--store__img').attr('src', 'assets/img/store/shirts/'+ $(this)[0].id +'.png');
             console.log($(this)[0].id);
+        });
+    },
+    slidesController: function(){
+        $('.owl-carousel').owlCarousel({
+            items: 1,
+            center: true,
+            loop:true,
+            autoplay: true,
+            margin:10,
+            dots: true
         });
     }
 

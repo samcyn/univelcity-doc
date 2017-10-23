@@ -1,4 +1,5 @@
 @import '../components/_loader.scss';
+@import '../components/_animation.scss';
 //CONTAINERS
 .container__smaller{
     margin: 0 auto;
@@ -156,15 +157,26 @@
 }
 
 
-%btn-313p{
+//PLACEHOLDER FOR BUTTONS...
+
+%btn-313p, %btn-232p{
     border-radius: 3px !important;
-    box-shadow: 2px 2px 4px 0 rgba(155, 155, 155, 0.5) !important;
-    margin: 0 auto !important;
-    max-width: $upcoming_courses-button_width;
-    padding: 14px !important;
     font-size: 18px !important;
     line-height: 16px;
 }
+
+%btn-313p{
+    margin: 0 auto !important;
+    box-shadow: 2px 2px 4px 0 rgba(155, 155, 155, 0.5) !important;
+    max-width: $upcoming_courses-button_width;
+    padding: 14px !important;
+}
+
+%btn-232p{
+    max-width: $careers_button_width;
+    padding: 22px !important;
+}
+
 
 .upcoming_courses-btn{
     @extend %btn-313p;
@@ -567,5 +579,52 @@ ul.immersive{
         max-width: 200px;
         padding: 16px 0;
         margin: 0 auto !important;
+    }
+}
+
+//CAREERS PAGE
+.careers{
+    display: flex;
+    align-items: center;
+    height: 341px;
+    position: relative;
+    .careers__info{
+        flex: 1;
+    }
+    .careers__imageContainer{
+        position: absolute;
+        right: 15px;
+        top: 0;
+    }
+    .careers__heading{
+        line-height: 41px;
+        font-family: $BryantMedium;
+        font-size: 48px;
+        font-weight: 500;
+        color: $brand-dark;
+        margin-bottom: 24px;
+    }
+    .careers__btn{
+        width: 100%;
+        @extend %btn-232p;
+    }
+}
+
+.testimonial .inner-section__heading{
+    margin-bottom: 32px !important;
+}
+
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    .owl-dot{
+        width: 10px;
+        height: 10px;
+        margin: 0 8px;
+        border-radius: 100%;
+        background: #CDCDCD;
+        &.active{
+            background: #4C62A8;
+        }
     }
 }

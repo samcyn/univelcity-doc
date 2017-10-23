@@ -1,0 +1,18 @@
+.zoom {
+    animation: zoomOutDown 1.0s both cubic-bezier(0.550, 0.055, 0.675, 0.190);
+}
+
+@keyframes zoomOutDown {
+    from {
+        opacity: 1;
+    }
+    // 50% {
+    //     opacity: 0;
+    //     transform: scale3d(0, 0, 0);
+    // }
+    to {
+        opacity: 0;
+    }
+}
+
+

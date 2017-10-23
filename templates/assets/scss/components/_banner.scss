@@ -27,6 +27,10 @@
     background-image: url(../../assets/img/banners/#{$small_banner_image3});
 }
 
+.banner-big--alumini{
+    background-image: url(../../assets/img/banners/#{$big_banner_image_alumini});
+}
+
 .banner-big__overlay, .banner-small__overlay{
     align-content: center;
     align-items: center;
