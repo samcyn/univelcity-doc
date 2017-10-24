@@ -15,6 +15,10 @@ input[type=time],
 input[type=url], 
 textarea.md-textarea{
     box-sizing: border-box !important;
+    border: solid 1px #CDCDCD !important;
+    border-bottom: solid 1px #CDCDCD !important;
+    box-shadow: none !important;
+    color: #CDCDCD;
 }
 
 .line_height1_2{

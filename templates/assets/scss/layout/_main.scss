@@ -8,6 +8,16 @@
     }
 }
 
+%container--smallest,
+.container--smallest
+{
+    max-width: 585px;
+}
+
+.container--s401{
+    max-width: 401px;
+}
+
 
 // INNER SECTION PADDING
 .inner-section{
@@ -17,16 +27,25 @@
     }
 }
 
-.inner-section__heading{
+
+.inner-section__heading, .inner-section__heading-small{
     color: $inner-section_heading_color;
-    font-size: $inner-section_heading_font_size;
     font-weight: 500;
-    line-height: $inner-section_heading_line_height;
-    margin-bottom: $inner-section_heading_margin_bottom;
     text-align: center;
     @media(max-width: 991px){
         font-size: $inner-section_heading_font_size * 2.2 / 3;
     }
+}
+
+.inner-section__heading{
+    font-size: $inner-section_heading_font_size;
+    line-height: $inner-section_heading_line_height;
+    margin-bottom: $inner-section_heading_margin_bottom;
+}
+.inner-section__heading-small{
+    font-size: 24px;
+    line-height: 21px;
+    margin-bottom: 9px;
 }
 
 .inner-section__passage{
@@ -174,7 +193,7 @@
 
 %btn-232p{
     max-width: $careers_button_width;
-    padding: 22px !important;
+    padding: 22px 0 !important;
 }
 
 
@@ -607,11 +626,22 @@ ul.immersive{
     .careers__btn{
         width: 100%;
         @extend %btn-232p;
+        &.btn-brand__outline{
+            padding: 20px 0 !important;
+            margin-left: 5px !important;
+        }
     }
 }
 
-.testimonial .inner-section__heading{
-    margin-bottom: 32px !important;
+.testimonial {
+    @extend %container--smallest;
+    margin: 0 auto;
+    .inner-section__heading{
+        margin-bottom: 32px !important;
+    }
+    .inner-section__passage{
+        margin-bottom: 16px;
+    }
 }
 
 .owl-dots{
@@ -626,5 +656,66 @@ ul.immersive{
         &.active{
             background: #4C62A8;
         }
+    }
+}
+
+
+//ALUMINI PAGE
+.alumini{
+    .alumini__form-container{
+        margin-top: 24px;
+        text-align: center;
+        .md-form{
+            margin-bottom: 16px;
+        }
+        input[type='email']{
+            height: 44px !important;
+        }
+    }
+    .btn-brand--313, input[type='email']{
+        max-width: 313px;
+        margin: 0 auto !important;
+        border-radius: 3px !important;
+        line-height: 16px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        font-weight: bold;
+    }
+}
+
+
+//CAREERS FORM
+.careers_form_intro{
+    line-height: 15px;
+    font-family: $BryantAlt;
+    font-size: 14px;
+    color: #4A4A4A;
+}
+.careers_form{
+    label{
+        line-height: 12px;
+        font-family: $BryantMedium;
+        font-size: 14px;
+        font-weight: 500;
+        color: #9B9B9B;
+        margin-bottom: 6px !important;
+    }
+    .md-form{
+        margin-bottom: 18px !important;
+    }
+    input,select{
+        height: 40px !important;
+        font-family: $BryantAlt;
+        font-size: 16px;
+        color: #4A4A4A;
+    }
+    .btn-brand{
+        line-height: 16px;
+        font-family: $BryantMedium;
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-radius: 3px !important;
     }
 }
