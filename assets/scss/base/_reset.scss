@@ -42,6 +42,9 @@ a{
   text-transform: capitalize !important;
 }
 input[type=text].input-alternate:hover,
-input[type=text].input-alternate:focus{
+input[type=text].input-alternate:focus,
+input[type=email].input-alternate:hover,
+input[type=email].input-alternate:focus
+{
   box-shadow: none !important;
 }

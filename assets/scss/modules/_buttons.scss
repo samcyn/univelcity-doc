@@ -15,3 +15,9 @@
 	border-radius: 1.5px;
 	box-shadow: 1px 1px 2px 0 rgba(155, 155, 155, 0.5);
 }
+
+.btn-brand__outline{
+    border: 2px solid $button-brand-color;
+    background-color: #FFF;
+    color: $button-brand-color !important;
+}

@@ -58,63 +58,52 @@
 					</div>
 					</div>
 				</nav>
-				<div class="banner-big banner-big--alumini">
-					<div class="banner-big__overlay">
-						<div class="container">
-							<div class="banner-small__iconContainer">
-								<h2 class="ml-0 mt-0 mb-0 banner-small__heading">Univelcity Alumni</h2>
-							</div>
-						</div>
-					</div>
-				</div>
 			</header>
 
 			<main>
 				
-				<section class="inner-section alumini">
-					<div class="container container--smallest">
-						<h3 class="inner-section__heading">Alumni Newsletter</h3>
-						<div class="inner-section__passage">
-                            Get exclsive access to news about our events 
-                            and career opportunities by subscribing to our Alumni newsletter.
-                        </div>
-                        <div class="alumini__form-container">
-                            <form>
-                            
-                                <div class="md-form">
-                                    <input type="email" class="input-alternate form-control" id="email" name="email" placeholder="Email">
+				<section class="inner-section">
+					<div class="container container--s401">
+                        <h3 class="inner-section__heading-small">Want to Hire Developers from us?</h3>
+                        <div class="mb-4 careers_form_intro">Fill in the form below and we’ll get in touch with you</div>
+                        <form method="" class="careers_form">	
+                            <label for="name">Name:</label>
+                            <div class="md-form">
+                                <input type="text" class="input-alternate form-control" id="name" name="name">
+                            </div>
+                            <label for="email">Email:</label>
+                            <div class="md-form">
+                                <input type="text" class="input-alternate form-control" id="email" name="email">
+                            </div>
+                            <label for="company">Company’s name <small>( skip if none )</small></label>
+                            <div class="md-form">
+                                <input type="text" class="input-alternate form-control" id="company" name="company">
+                            </div>
+                            <label for="stack">Stack needed:</label>
+                            <div class="md-form">
+                                <div class="row">
+                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                        <select class="form-control" placeholder="All departments" id="stack" name="stack">
+                                            <option value="1">FrontEnd developer</option>
+                                            <option value="2">BackEnd developer</option>
+                                            <option value="3">Product Designer</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                        <select class="form-control" placeholder="" id="number" name="number">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
                                 </div>
-                                <a class="btn btn-brand btn-block btn-brand--313">Subscribe to Alumni Newsletter</a>
-                            </form>
-                        </div>
-					</div>
-				</section>
-
-
-				<section class="inner-section alumini" id="upcoming_courses">
-					<div class="container container--smallest">
-						<h3 class="inner-section__heading">Univelcity Community</h3>
-						<div class="inner-section__passage">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras urna nisi, pretium 
-                            a arcu ut, dapibus aliquet tellus. In at augue sollicitudin, bibendum nunc vel, dignissim dui. Ut auctor, lacus non convallis sollicitudin, odio enim porttitor ex,
-                            id porta massa magna nec magna. Integer tincidunt ac sem quis venenatis. 
-						</div>
-						<div class="text-center">
-							<p class="mb-0 mt-3">- Tunji Fashola, Javascript 101</p>
-						</div>	
-					</div>
-				</section>
-
-				<section class="inner-section alumini">
-					<div class="container container--smallest">
-						<h3 class="inner-section__heading line_height1_2">CareerXpress</h3>
-						<div class="inner-section__passage">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras urna nisi, pretium a arcu ut, dapibus aliquet tellus. In at augue sollicitudin, bibendum nunc vel, dignissim dui. Ut auctor, lacus non convallis sollicitudin, odio enim porttitor ex,
-                             id porta massa magna nec magna. Integer tincidunt ac sem quis venenatis. 
-                        </div>
-                        <div class="text-center mt-3">
-							<a class="btn btn-brand btn-block btn-brand--313">Register for CareerXpress</a>
-						</div>		
+                            </div>
+                            <label for="salary">Salary per developer:</label>
+                            <div class="md-form">
+                                <input type="text" class="input-alternate form-control" id="salary" name="salary">
+                            </div>
+                            <button type="submit" class="btn btn-brand btn-block">Hire a Developer</button>
+                        </form>
 					</div>
 				</section>
 
