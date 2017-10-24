@@ -12,12 +12,41 @@
 
 .btn-brand {
 	background-color: $button-brand-color;
-	border-radius: 1.5px;
-	box-shadow: 1px 1px 2px 0 rgba(155, 155, 155, 0.5);
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px 0 rgba(155, 155, 155, 0.5) !important;
 }
 
-.btn-brand__outline{
+.btn-brand__outline {
     border: 2px solid $button-brand-color;
     background-color: #FFF;
     color: $button-brand-color !important;
 }
+
+.btn-brand--focus{
+    font-size: 18px;
+    line-height: $focus_card_button_line_height;
+    padding: $focus_card_button_padding;
+    @media (min-width: 425px){
+        max-width: $focus_card_button_width;
+    }  
+}
+
+.btn-brand--w313{
+    border-radius: 3px !important;
+    font-size: 18px !important;
+    line-height: 16px;
+    margin: 0 auto !important;
+    box-shadow: 2px 2px 4px 0 rgba(155, 155, 155, 0.5) !important;
+    max-width: $upcoming_courses-button_width;
+    padding: 14px !important;
+}
+
+.btn-brand--careers-form{
+    line-height: 16px;
+    font-family: $BryantMedium;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+

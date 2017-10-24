@@ -1,11 +1,9 @@
 @import '../components/_loader.scss';
 @import '../components/_animation.scss';
+
 //CONTAINERS
 .container__smaller{
-    margin: 0 auto;
-    @media (min-width: 991px) {
-        max-width: $smaller_container;
-    }
+    max-width: $smaller_container;
 }
 
 %container--smallest,
@@ -103,15 +101,14 @@
         }
     }
     
-    .btn-brand{
-        line-height: $focus_card_button_line_height;
-        padding: $focus_card_button_padding;
-        width: 100%;
-        @media (min-width: 425px){
-            width: $focus_card_button_width;
-        }
-        
-    }
+    // .btn-brand{
+    //     line-height: $focus_card_button_line_height;
+    //     padding: $focus_card_button_padding;
+    //     width: 100%;
+    //     @media (min-width: 425px){
+    //         width: $focus_card_button_width;
+    //     }   
+    // }
     @media (max-width: 767px){
         margin-bottom: 30px;
     }
@@ -197,9 +194,9 @@
 }
 
 
-.upcoming_courses-btn{
-    @extend %btn-313p;
-}
+// .upcoming_courses-btn{
+//     @extend %btn-313p;
+// }
 
 
 //CONTACT FORM
@@ -224,9 +221,9 @@
     .form-group {
         margin-bottom: 48px;
     }
-    .courses-btn{
-        @extend %btn-313p;
-    }
+    // .courses-btn{
+    //     @extend %btn-313p;
+    // }
 }
 
 
@@ -625,7 +622,8 @@ ul.immersive{
     }
     .careers__btn{
         width: 100%;
-        @extend %btn-232p;
+        max-width: $careers_button_width;
+        padding: 22px 0 !important;
         &.btn-brand__outline{
             padding: 20px 0 !important;
             margin-left: 5px !important;
@@ -672,7 +670,7 @@ ul.immersive{
             height: 44px !important;
         }
     }
-    .btn-brand--313, input[type='email']{
+    input[type='email']{
         max-width: 313px;
         margin: 0 auto !important;
         border-radius: 3px !important;
@@ -708,14 +706,5 @@ ul.immersive{
         font-family: $BryantAlt;
         font-size: 16px;
         color: #4A4A4A;
-    }
-    .btn-brand{
-        line-height: 16px;
-        font-family: $BryantMedium;
-        font-size: 18px;
-        font-weight: bold;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        border-radius: 3px !important;
     }
 }
