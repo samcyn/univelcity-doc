@@ -621,12 +621,14 @@ ul.immersive{
         margin-bottom: 24px;
     }
     .careers__btn{
+        font-size: 18px;
+        line-height: 16px;
         width: 100%;
         max-width: $careers_button_width;
         padding: 22px 0 !important;
         &.btn-brand__outline{
             padding: 20px 0 !important;
-            margin-left: 5px !important;
+            margin-left: 10px !important;
         }
     }
 }
