@@ -1,0 +1,25 @@
+
+//CONTACT US PAGE
+.contact-wrap{
+    border: 1px solid #CDCDCD;
+    padding: 48px 96px;
+    @media(max-width: 991px){
+        padding: 24px !important;
+    }
+    .contact-wrap--list{
+        margin-bottom: 0 !important;
+    }
+    .contact-wrap--items{
+        margin-bottom: 92px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    .contact-wrap--detail{
+        margin-left: 16.2px;
+        font-family: $BryantAlt;
+        font-size: 16px;
+        text-align: left;
+        color: $brand-dark;
+    }
+}

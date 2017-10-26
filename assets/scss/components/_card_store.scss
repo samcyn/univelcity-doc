@@ -1,0 +1,119 @@
+
+//STORE PAGE
+
+#store  [class*='col-']{
+    margin-bottom: 48px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+    @media(min-width: 767px){
+        &:nth-last-child(-n+3){
+            margin-bottom: 0 !important;
+        }
+    }
+}
+
+.card--store{
+    box-shadow: none !important;
+    .img-fluid{
+        width: 100% !important;
+    }
+    .card-body{
+        padding: 16px 24px 24px 24px;
+        border: solid 1px #CDCDCD !important;
+        border-top: none !important;
+    }
+    .card-title{
+        line-height: 21px;
+        font-family: $BryantMedium;
+        font-size: 24px;
+        font-weight: 500;
+        color: #4A4A4A;
+        margin-bottom: 16px;
+    }
+    .card-price{
+        line-height: 18px;
+        font-family: $BryantMedium;
+        font-size: 16px !important;
+        font-weight: bold !important;
+        color: #4A4A4A;
+        margin-bottom: 13px !important;
+    }
+    .form-group{
+       margin-bottom: 24px; 
+    }
+    label{
+        line-height: 12px;
+        font-family: $BryantMedium;
+        font-size: 14px;
+        font-weight: 500;
+        color: #CDCDCD;
+        margin-bottom: 4px !important;
+    }
+
+    select{
+        border-radius: 3px;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    @media(min-width: 1024px){
+        .card--store__form{
+            .col:not(:last-child){
+                width: 98px;
+                flex: 0 0 98px !important;
+            }
+        }
+    }
+
+    @media(max-width: 375px){
+        .card--store__form{
+            .col:not(:last-child){
+                width: 90px;
+                flex: 0 0 90px !important;
+            }
+        }
+    }
+
+    @media(max-width: 991px){
+        .card--store__form{
+            .col{
+               padding-left: 8px;
+               padding-right: 8px;
+            }
+        }
+    }
+    
+    .swatches{
+        justify-content: space-between;
+        label{
+            width: 32px;
+            height: 32px;
+            border-radius: 2px;
+            margin-bottom: 0 !important;
+            &.bg-dark{
+                background: #000000;
+            }
+            &.bg-blue{
+                background: $brand-blue2;
+            }
+            &.bg-white{
+                background: #FFFFFF;
+                border: solid 1px #9B9B9B;
+            }
+            cursor: pointer;
+        }
+        input[type='radio']{
+            display: none;
+        }
+    }
+    .btn-brand{
+        line-height: 16px;
+        font-family: $BryantMedium;
+        font-size: 18px;
+        font-weight: bold;
+        max-width: 200px;
+        padding: 16px 0;
+        margin: 0 auto !important;
+    }
+}

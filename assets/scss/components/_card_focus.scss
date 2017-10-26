@@ -1,0 +1,38 @@
+
+//OUR FOCUS SECTION
+.card--focus {
+    
+    .card-title{
+        color: $brand-dark;
+        font-size: $focus_card_title_font_size;
+        font-weight: $focus_card_title_font_weight !important;
+        line-height: $focus_card_title_line_height;
+        margin-bottom: $focus_card_title_margin_bottom;
+    }
+
+    .card-body{
+        padding: $focus_card_body_padding;
+    }
+    
+    .card-text{
+        max-height: $focus_card_text_max_height;
+        font-size: $focus_card_text_font_size;
+        line-height: $focus_card_text_line_height;
+        margin-bottom: $focus_card_text_margin_bottom !important;
+        text-align: $focus_card_text_align;
+        font-family: $BryantAlt;
+    }
+    
+    .img-fluid{
+        margin-bottom: $focus_card_image_margin_bottom;
+        @media (min-width: 991px){
+            height: $focus_card_image_height;
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 767px){
+        margin-bottom: 30px;
+    }
+
+}

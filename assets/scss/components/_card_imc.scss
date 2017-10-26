@@ -1,0 +1,92 @@
+
+//IMMERSIVE COURSE PAGE
+ul.immersive{
+    margin-bottom: 24px;
+}
+
+.card--imc{
+    background-color: transparent;
+    box-shadow: none !important;
+    
+    .card-body{
+        padding: $immersive_card_body_padding;
+        position: relative;
+        z-index: 1;
+        border-bottom: $immersive_card_border-bottom;
+        @media(max-width: 991px){
+            padding-top: 48px !important;
+        }
+    }
+    .card__overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        background: $immersive_card_overlay_background;
+    }
+    .media{
+        justify-content: space-between;
+        @media (max-width: 567px){
+            flex-wrap: wrap;
+        }
+    }
+    .immersive__icon{
+        @media (max-width: 567px){
+            flex: 1 0 100%;
+            justify-content: center;
+            order: 1;
+        }
+    }
+    .media--detail{
+        width: $immersive_card_media_detail_width;
+        @media (max-width: 567px){
+            width: auto;
+            order: 2;
+        }
+    }
+    .media--title{
+        line-height: $immersive_card_title_line_height;
+        font-size: $immersive_card_title_font_size !important;
+        font-weight: $immersive_card_title_font_weight !important;
+        color: $immersive_card_title_font_color;
+    }
+    .media--text{
+        font-size: $immersive_card_paragraph_font_size;
+        line-height: $immersive_card_paragraph_line_height;
+        text-align: left;
+        color: $immersive_card_paragraph_color;
+        font-family: $BryantAlt;
+    }
+    .media--anchor{
+        line-height: $immersive_card_anchor_line_height;
+        font-size: $immersive_card_anchor_font_size;
+        font-weight: $immersive_card_anchor_font_weight;
+        text-align: justify;
+        color: $immersive_card_anchor_color;
+    }
+    .media__schedule{
+        @media (max-width: 567px){
+           order: 3;
+           margin-bottom: 30px;
+        }
+    }
+    .media--date{
+        line-height: $immersive_card_date_line_height;
+        font-size: $immersive_card_date_font_size;
+        font-weight: $immersive_card_date_font_weight;
+        text-align: left;
+        color: $immersive_card_paragraph_color;
+    }
+    .immersive-icon{
+        @extend %card-icons-big;
+        margin-right: $immersive_card_icon_margin_right !important;
+        @media (max-width: 567px){
+            margin-bottom: 30px;
+            margin-right: 0 !important;
+        }
+    }
+}
+
