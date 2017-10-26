@@ -1,0 +1,45 @@
+
+//CAREERS PAGE
+.careers{
+    display: flex;
+    align-items: center;
+    height: 341px;
+    position: relative;
+    .careers__info{
+        flex: 1;
+    }
+    .careers__imageContainer{
+        position: absolute;
+        right: 15px;
+        top: 0;
+    }
+    .careers__heading{
+        line-height: 41px;
+        font-family: $BryantMedium;
+        font-size: 48px;
+        font-weight: 500;
+        color: $brand-dark;
+        margin-bottom: 24px;
+    }
+    .careers__btn{
+        font-size: 18px;
+        line-height: 16px;
+        width: 100%;
+        max-width: $careers_button_width;
+        padding: 22px 0 !important;
+        &.btn-brand__outline{
+            padding: 20px 0 !important;
+            margin-left: 10px !important;
+        }
+    }
+}
+
+#testimonial {
+    
+    .inner-section__heading{
+        margin-bottom: 32px !important;
+    }
+    .inner-section__passage{
+        margin-bottom: 16px;
+    }
+}

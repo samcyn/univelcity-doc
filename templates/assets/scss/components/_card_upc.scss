@@ -1,0 +1,56 @@
+
+//UPCOMING COURSES
+#upcoming_courses{
+    background-color: $upcoming_courses_background;
+}
+
+.card--upc{
+    margin-bottom: $upcoming_courses_card_margin_bottom;
+    @media(max-width: 991px){
+        margin-bottom: $upcoming_courses_card_margin_bottom - 18 !important;
+    }
+    .card-body{
+        @media(max-width: 991px){
+            padding: 24px;
+        }
+        padding: $upcoming_courses_card_body_padding;
+    }
+
+    .media-title{
+        font-size: $upcoming_courses_card_title_font_size !important;
+        font-weight: $upcoming_courses_card_title_font_weight !important;
+        line-height: $upcoming_courses_card_title_line_height;
+        color: $brand-dark !important;
+    }
+    
+    .course-icon{
+        @extend %card-icons;
+    }
+    
+    // .media-text{
+    //     font-size: $upcoming_courses_card_paragraph_font_size;
+    //     line-height: $upcoming_courses_card_paragraph_line_height;
+    // }
+    
+    .media-date{
+        font-size: $upcoming_courses_card_date_font_size;
+        font-weight: $upcoming_courses_card_date_font_weight;
+        line-height: $upcoming_courses_card_date_line_height;
+        color: $brand-dark !important;
+    }
+    
+    .media-detail{
+        width: $upcoming_courses_card_media_detail_width !important;
+    }
+    
+    .media{
+        justify-content: space-between;
+    }
+    .course-icon{
+        @media(max-width: 991px){
+            margin-right: 15px !important;
+        }
+        margin-right: 57px !important;
+    }
+
+}

@@ -1,0 +1,27 @@
+
+//CAREERS FORM
+.careers_form_intro{
+    line-height: 15px;
+    font-family: $BryantAlt;
+    font-size: 14px;
+    color: #4A4A4A;
+}
+.careers_form{
+    label{
+        line-height: 12px;
+        font-family: $BryantMedium;
+        font-size: 14px;
+        font-weight: 500;
+        color: #9B9B9B;
+        margin-bottom: 6px !important;
+    }
+    .md-form{
+        margin-bottom: 18px !important;
+    }
+    input,select{
+        height: 40px !important;
+        font-family: $BryantAlt;
+        font-size: 16px;
+        color: #4A4A4A;
+    }
+}

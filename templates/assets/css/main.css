@@ -505,35 +505,34 @@ textarea.md-textarea {
   }
 }
 
-/* line 5, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 2, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_containers.scss */
 .container__smaller {
   max-width: 945px;
 }
 
-/* line 9, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
-.testimonial,
+/* line 6, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_containers.scss */
 .container--smallest {
   max-width: 585px;
 }
 
-/* line 15, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 11, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_containers.scss */
 .container--s401 {
   max-width: 401px;
 }
 
-/* line 21, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 3, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_inner_sections.scss */
 .inner-section {
   padding: 88px 0;
 }
 
 @media (max-width: 991px) {
-  /* line 21, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 3, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_inner_sections.scss */
   .inner-section {
     padding: 44px 0;
   }
 }
 
-/* line 29, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 11, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_inner_sections.scss */
 .inner-section__heading, .inner-section__heading-small {
   color: #4A4A4A;
   font-weight: 500;
@@ -541,27 +540,27 @@ textarea.md-textarea {
 }
 
 @media (max-width: 991px) {
-  /* line 29, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 11, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_inner_sections.scss */
   .inner-section__heading, .inner-section__heading-small {
     font-size: 29.33333px;
   }
 }
 
-/* line 38, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 20, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_inner_sections.scss */
 .inner-section__heading {
   font-size: 40px;
   line-height: 35px;
   margin-bottom: 48px;
 }
 
-/* line 43, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 26, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_inner_sections.scss */
 .inner-section__heading-small {
   font-size: 24px;
   line-height: 21px;
   margin-bottom: 9px;
 }
 
-/* line 49, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 32, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_inner_sections.scss */
 .inner-section__passage {
   color: #4A4A4A;
   font-size: 16px;
@@ -572,25 +571,13 @@ textarea.md-textarea {
 }
 
 @media (min-width: 991px) {
-  /* line 49, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 32, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_inner_sections.scss */
   .inner-section__passage {
     max-width: 945px;
   }
 }
 
-/* line 63, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
-.card--upc .course-icon {
-  width: 68px;
-  height: 79px;
-}
-
-/* line 67, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
-.card--imc .immersive-icon, .mini_course__icon {
-  width: 128px;
-  height: 148px;
-}
-
-/* line 75, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 5, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_focus.scss */
 .card--focus .card-title {
   color: #4A4A4A;
   font-size: 24px;
@@ -599,12 +586,12 @@ textarea.md-textarea {
   margin-bottom: 6px;
 }
 
-/* line 83, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 13, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_focus.scss */
 .card--focus .card-body {
   padding: 24px;
 }
 
-/* line 87, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 17, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_focus.scss */
 .card--focus .card-text {
   max-height: 96px;
   font-size: 16px;
@@ -614,13 +601,13 @@ textarea.md-textarea {
   font-family: "BryantRegularAlt";
 }
 
-/* line 96, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 26, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_focus.scss */
 .card--focus .img-fluid {
   margin-bottom: 16px;
 }
 
 @media (min-width: 991px) {
-  /* line 96, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 26, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_focus.scss */
   .card--focus .img-fluid {
     height: 222px;
     width: 100%;
@@ -628,42 +615,42 @@ textarea.md-textarea {
 }
 
 @media (max-width: 767px) {
-  /* line 73, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 3, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_focus.scss */
   .card--focus {
     margin-bottom: 30px;
   }
 }
 
-/* line 120, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 3, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_upc.scss */
 #upcoming_courses {
   background-color: rgba(76, 98, 168, 0.04);
 }
 
-/* line 124, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 7, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_upc.scss */
 .card--upc {
   margin-bottom: 48px;
 }
 
 @media (max-width: 991px) {
-  /* line 124, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 7, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_upc.scss */
   .card--upc {
     margin-bottom: 30px !important;
   }
 }
 
-/* line 129, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 12, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_upc.scss */
 .card--upc .card-body {
   padding: 25px 32px 26px 41px;
 }
 
 @media (max-width: 991px) {
-  /* line 129, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 12, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_upc.scss */
   .card--upc .card-body {
     padding: 24px;
   }
 }
 
-/* line 136, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 19, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_upc.scss */
 .card--upc .media-title {
   font-size: 24px !important;
   font-weight: 500 !important;
@@ -671,7 +658,7 @@ textarea.md-textarea {
   color: #4A4A4A !important;
 }
 
-/* line 152, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 35, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_upc.scss */
 .card--upc .media-date {
   font-size: 16px;
   font-weight: 500;
@@ -679,45 +666,31 @@ textarea.md-textarea {
   color: #4A4A4A !important;
 }
 
-/* line 159, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 42, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_upc.scss */
 .card--upc .media-detail {
   width: 244px !important;
 }
 
-/* line 163, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 46, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_upc.scss */
 .card--upc .media {
   justify-content: space-between;
 }
 
-/* line 166, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 49, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_upc.scss */
 .card--upc .course-icon {
   margin-right: 57px !important;
 }
 
 @media (max-width: 991px) {
-  /* line 166, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 49, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_upc.scss */
   .card--upc .course-icon {
     margin-right: 15px !important;
   }
 }
 
-/* line 178, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 3, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_contact_form.scss */
 .contact-form input {
-  border-radius: 3px !important;
-  font-size: 18px !important;
-  line-height: 16px;
-}
-
-/* line 184, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
-.contact-form input {
-  margin: 0 auto !important;
-  box-shadow: 2px 2px 4px 0 rgba(155, 155, 155, 0.5) !important;
   max-width: 313px;
-  padding: 14px !important;
-}
-
-/* line 204, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
-.contact-form input {
   height: 54px !important;
   border-radius: 3px;
   background-color: #FFFFFF;
@@ -730,30 +703,30 @@ textarea.md-textarea {
 }
 
 @media (min-width: 767px) {
-  /* line 204, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 3, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_contact_form.scss */
   .contact-form input {
     width: 100%;
     max-width: 494px;
   }
 }
 
-/* line 221, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 20, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_contact_form.scss */
 .contact-form .form-group {
   margin-bottom: 48px;
 }
 
-/* line 231, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 3, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
 ul.immersive {
   margin-bottom: 24px;
 }
 
-/* line 235, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 7, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
 .card--imc {
   background-color: transparent;
   box-shadow: none !important;
 }
 
-/* line 239, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 11, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
 .card--imc .card-body {
   padding: 88px 8px 72px 8px;
   position: relative;
@@ -762,13 +735,13 @@ ul.immersive {
 }
 
 @media (max-width: 991px) {
-  /* line 239, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 11, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
   .card--imc .card-body {
     padding-top: 48px !important;
   }
 }
 
-/* line 248, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 20, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
 .card--imc .card__overlay {
   position: absolute;
   top: 0;
@@ -780,20 +753,20 @@ ul.immersive {
   background: #F9F9F9;
 }
 
-/* line 258, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 30, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
 .card--imc .media {
   justify-content: space-between;
 }
 
 @media (max-width: 567px) {
-  /* line 258, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 30, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
   .card--imc .media {
     flex-wrap: wrap;
   }
 }
 
 @media (max-width: 567px) {
-  /* line 264, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 36, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
   .card--imc .immersive__icon {
     flex: 1 0 100%;
     justify-content: center;
@@ -801,20 +774,20 @@ ul.immersive {
   }
 }
 
-/* line 271, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 43, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
 .card--imc .media--detail {
   width: 668px;
 }
 
 @media (max-width: 567px) {
-  /* line 271, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 43, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
   .card--imc .media--detail {
     width: auto;
     order: 2;
   }
 }
 
-/* line 278, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 50, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
 .card--imc .media--title {
   line-height: 21px;
   font-size: 24px !important;
@@ -822,7 +795,7 @@ ul.immersive {
   color: #283459;
 }
 
-/* line 284, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 56, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
 .card--imc .media--text {
   font-size: 16px;
   line-height: 1.5;
@@ -831,7 +804,7 @@ ul.immersive {
   font-family: "BryantRegularAlt";
 }
 
-/* line 291, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 63, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
 .card--imc .media--anchor {
   line-height: 14px;
   font-size: 16px;
@@ -841,14 +814,14 @@ ul.immersive {
 }
 
 @media (max-width: 567px) {
-  /* line 298, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 70, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
   .card--imc .media__schedule {
     order: 3;
     margin-bottom: 30px;
   }
 }
 
-/* line 304, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 76, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
 .card--imc .media--date {
   line-height: 14px;
   font-size: 16px;
@@ -857,25 +830,25 @@ ul.immersive {
   color: #4A4A4A;
 }
 
-/* line 311, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 83, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
 .card--imc .immersive-icon {
   margin-right: 24px !important;
 }
 
 @media (max-width: 567px) {
-  /* line 311, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 83, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_imc.scss */
   .card--imc .immersive-icon {
     margin-bottom: 30px;
     margin-right: 0 !important;
   }
 }
 
-/* line 324, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 3, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .mini_course__icon {
   margin: 0 auto 8px auto;
 }
 
-/* line 329, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 8, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .mini_course__title {
   line-height: 35px;
   font-size: 40px;
@@ -885,7 +858,7 @@ ul.immersive {
   margin-bottom: 0 !important;
 }
 
-/* line 339, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 18, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .card--mini_course_right {
   background-color: transparent;
   box-shadow: none !important;
@@ -893,13 +866,13 @@ ul.immersive {
 }
 
 @media (max-width: 1076px) {
-  /* line 339, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 18, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
   .card--mini_course_right {
     width: auto;
   }
 }
 
-/* line 346, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 25, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .card--mini_course_right .card-body {
   margin-bottom: 48px;
   background-color: #F9F9F9;
@@ -908,14 +881,14 @@ ul.immersive {
   border: solid 1px #E1E1E1 !important;
 }
 
-/* line 354, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 33, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .card--mini_course_right .media {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 2px solid #E1E1E1;
 }
 
-/* line 359, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 38, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .card--mini_course_right .btn.btn-block.btn-brand {
   padding: 14px !important;
   font-size: 18px !important;
@@ -923,7 +896,7 @@ ul.immersive {
   border-radius: 3px;
 }
 
-/* line 365, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 44, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .card--mini_course_right .card__title {
   line-height: 17px !important;
   font-size: 16px !important;
@@ -934,7 +907,7 @@ ul.immersive {
   font-weight: normal !important;
 }
 
-/* line 374, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 53, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .card--mini_course_right .card__date {
   line-height: 14px;
   font-size: 16px;
@@ -943,19 +916,19 @@ ul.immersive {
   color: #4A4A4A;
 }
 
-/* line 381, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 60, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .card--mini_course_right .card__price-off {
   line-height: 8px;
 }
 
-/* line 384, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 63, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .card--mini_course_right .card__price-off .price {
   color: #9B9B9B;
   margin-right: 16px;
   text-decoration: line-through;
 }
 
-/* line 391, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 70, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .card--mini_course_right .card-subscription__text {
   font-size: 16px;
   line-height: 1.5;
@@ -965,12 +938,12 @@ ul.immersive {
   font-family: "BryantRegularAlt";
 }
 
-/* line 399, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 78, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .card--mini_course_right .form-group {
   margin-bottom: 24px;
 }
 
-/* line 402, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 81, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .card--mini_course_right .input-alternate {
   height: 44px !important;
   border-radius: 3px;
@@ -980,24 +953,24 @@ ul.immersive {
   background-color: #FFFFFF;
 }
 
-/* line 409, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 88, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .card--mini_course_right .input-alternate:focus, .card--mini_course_right .input-alternate:hover {
   box-shadow: none !important;
 }
 
-/* line 416, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 95, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .mini-course__left {
   width: 653px;
 }
 
 @media (max-width: 1076px) {
-  /* line 416, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 95, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
   .mini-course__left {
     width: auto;
   }
 }
 
-/* line 421, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 100, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .mini-course__left .course__title {
   line-height: 21px;
   font-size: 24px;
@@ -1005,7 +978,7 @@ ul.immersive {
   margin-bottom: 24px;
 }
 
-/* line 428, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 107, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .mini-course__left .course__passage {
   font-size: 16px;
   line-height: 1.88;
@@ -1014,17 +987,17 @@ ul.immersive {
   font-family: "BryantRegularAlt";
 }
 
-/* line 435, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 114, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .mini-course__left .inner-section {
   padding-top: 0 !important;
 }
 
-/* line 438, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 117, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .mini-course__left ul {
   margin-bottom: 0 !important;
 }
 
-/* line 440, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 119, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .mini-course__left ul li {
   list-style-type: disc;
   line-height: 17px;
@@ -1034,45 +1007,45 @@ ul.immersive {
   font-family: "BryantRegularAlt";
 }
 
-/* line 447, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 126, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .mini-course__left ul li:last-child {
   margin-bottom: 0;
 }
 
-/* line 451, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 130, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_mini_course.scss */
 .mini-course__left ul div {
   line-height: 1.88;
 }
 
-/* line 458, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 3, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_contact_us.scss */
 .contact-wrap {
   border: 1px solid #CDCDCD;
   padding: 48px 96px;
 }
 
 @media (max-width: 991px) {
-  /* line 458, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 3, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_contact_us.scss */
   .contact-wrap {
     padding: 24px !important;
   }
 }
 
-/* line 464, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 9, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_contact_us.scss */
 .contact-wrap .contact-wrap--list {
   margin-bottom: 0 !important;
 }
 
-/* line 467, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 12, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_contact_us.scss */
 .contact-wrap .contact-wrap--items {
   margin-bottom: 92px;
 }
 
-/* line 469, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 14, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_contact_us.scss */
 .contact-wrap .contact-wrap--items:last-child {
   margin-bottom: 0;
 }
 
-/* line 473, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 18, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_contact_us.scss */
 .contact-wrap .contact-wrap--detail {
   margin-left: 16.2px;
   font-family: "BryantRegularAlt";
@@ -1081,41 +1054,41 @@ ul.immersive {
   color: #4A4A4A;
 }
 
-/* line 484, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 4, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 #store [class*='col-'] {
   margin-bottom: 48px;
 }
 
-/* line 486, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 6, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 #store [class*='col-']:last-child {
   margin-bottom: 0;
 }
 
 @media (min-width: 767px) {
-  /* line 490, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 10, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
   #store [class*='col-']:nth-last-child(-n+3) {
     margin-bottom: 0 !important;
   }
 }
 
-/* line 496, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 16, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store {
   box-shadow: none !important;
 }
 
-/* line 498, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 18, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store .img-fluid {
   width: 100% !important;
 }
 
-/* line 501, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 21, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store .card-body {
   padding: 16px 24px 24px 24px;
   border: solid 1px #CDCDCD !important;
   border-top: none !important;
 }
 
-/* line 506, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 26, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store .card-title {
   line-height: 21px;
   font-family: "BryantMedium";
@@ -1125,7 +1098,7 @@ ul.immersive {
   margin-bottom: 16px;
 }
 
-/* line 514, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 34, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store .card-price {
   line-height: 18px;
   font-family: "BryantMedium";
@@ -1135,12 +1108,12 @@ ul.immersive {
   margin-bottom: 13px !important;
 }
 
-/* line 522, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 42, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store .form-group {
   margin-bottom: 24px;
 }
 
-/* line 525, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 45, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store label {
   line-height: 12px;
   font-family: "BryantMedium";
@@ -1150,7 +1123,7 @@ ul.immersive {
   margin-bottom: 4px !important;
 }
 
-/* line 534, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 54, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store select {
   border-radius: 3px;
   margin-top: 0 !important;
@@ -1158,7 +1131,7 @@ ul.immersive {
 }
 
 @media (min-width: 1024px) {
-  /* line 542, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 62, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
   .card--store .card--store__form .col:not(:last-child) {
     width: 98px;
     flex: 0 0 98px !important;
@@ -1166,7 +1139,7 @@ ul.immersive {
 }
 
 @media (max-width: 375px) {
-  /* line 551, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 71, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
   .card--store .card--store__form .col:not(:last-child) {
     width: 90px;
     flex: 0 0 90px !important;
@@ -1174,19 +1147,19 @@ ul.immersive {
 }
 
 @media (max-width: 991px) {
-  /* line 560, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+  /* line 80, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
   .card--store .card--store__form .col {
     padding-left: 8px;
     padding-right: 8px;
   }
 }
 
-/* line 567, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 87, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store .swatches {
   justify-content: space-between;
 }
 
-/* line 569, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 89, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store .swatches label {
   width: 32px;
   height: 32px;
@@ -1195,28 +1168,28 @@ ul.immersive {
   cursor: pointer;
 }
 
-/* line 574, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 94, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store .swatches label.bg-dark {
   background: #000000;
 }
 
-/* line 577, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 97, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store .swatches label.bg-blue {
   background: #2E547B;
 }
 
-/* line 580, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 100, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store .swatches label.bg-white {
   background: #FFFFFF;
   border: solid 1px #9B9B9B;
 }
 
-/* line 586, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 106, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store .swatches input[type='radio'] {
   display: none;
 }
 
-/* line 590, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 110, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_card_store.scss */
 .card--store .btn-brand {
   line-height: 16px;
   font-family: "BryantMedium";
@@ -1227,7 +1200,7 @@ ul.immersive {
   margin: 0 auto !important;
 }
 
-/* line 602, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 3, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_careers.scss */
 .careers {
   display: flex;
   align-items: center;
@@ -1235,19 +1208,19 @@ ul.immersive {
   position: relative;
 }
 
-/* line 607, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 8, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_careers.scss */
 .careers .careers__info {
   flex: 1;
 }
 
-/* line 610, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 11, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_careers.scss */
 .careers .careers__imageContainer {
   position: absolute;
   right: 15px;
   top: 0;
 }
 
-/* line 615, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 16, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_careers.scss */
 .careers .careers__heading {
   line-height: 41px;
   font-family: "BryantMedium";
@@ -1257,7 +1230,7 @@ ul.immersive {
   margin-bottom: 24px;
 }
 
-/* line 623, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 24, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_careers.scss */
 .careers .careers__btn {
   font-size: 18px;
   line-height: 16px;
@@ -1266,34 +1239,29 @@ ul.immersive {
   padding: 22px 0 !important;
 }
 
-/* line 629, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 30, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_careers.scss */
 .careers .careers__btn.btn-brand__outline {
   padding: 20px 0 !important;
   margin-left: 10px !important;
 }
 
-/* line 636, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
-.testimonial {
-  margin: 0 auto;
-}
-
-/* line 639, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
-.testimonial .inner-section__heading {
+/* line 39, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_careers.scss */
+#testimonial .inner-section__heading {
   margin-bottom: 32px !important;
 }
 
-/* line 642, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
-.testimonial .inner-section__passage {
+/* line 42, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_careers.scss */
+#testimonial .inner-section__passage {
   margin-bottom: 16px;
 }
 
-/* line 647, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 2, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_carousel.scss */
 .owl-dots {
   display: flex;
   justify-content: center;
 }
 
-/* line 650, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 5, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_carousel.scss */
 .owl-dots .owl-dot {
   width: 10px;
   height: 10px;
@@ -1302,39 +1270,12 @@ ul.immersive {
   background: #CDCDCD;
 }
 
-/* line 656, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 11, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_carousel.scss */
 .owl-dots .owl-dot.active {
   background: #4C62A8;
 }
 
-/* line 665, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
-.alumini .alumini__form-container {
-  margin-top: 24px;
-  text-align: center;
-}
-
-/* line 668, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
-.alumini .alumini__form-container .md-form {
-  margin-bottom: 16px;
-}
-
-/* line 671, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
-.alumini .alumini__form-container input[type='email'] {
-  height: 44px !important;
-}
-
-/* line 675, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
-.alumini input[type='email'] {
-  max-width: 313px;
-  margin: 0 auto !important;
-  border-radius: 3px !important;
-  line-height: 16px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  font-weight: bold;
-}
-
-/* line 688, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 3, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_careers_form.scss */
 .careers_form_intro {
   line-height: 15px;
   font-family: "BryantRegularAlt";
@@ -1342,7 +1283,7 @@ ul.immersive {
   color: #4A4A4A;
 }
 
-/* line 695, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 10, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_careers_form.scss */
 .careers_form label {
   line-height: 12px;
   font-family: "BryantMedium";
@@ -1352,17 +1293,58 @@ ul.immersive {
   margin-bottom: 6px !important;
 }
 
-/* line 703, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 18, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_careers_form.scss */
 .careers_form .md-form {
   margin-bottom: 18px !important;
 }
 
-/* line 706, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+/* line 21, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_careers_form.scss */
 .careers_form input, .careers_form select {
   height: 40px !important;
   font-family: "BryantRegularAlt";
   font-size: 16px;
   color: #4A4A4A;
+}
+
+/* line 4, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_alumini.scss */
+.alumini .alumini__form-container {
+  margin-top: 24px;
+  text-align: center;
+}
+
+/* line 7, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_alumini.scss */
+.alumini .alumini__form-container .md-form {
+  margin-bottom: 16px;
+}
+
+/* line 10, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_alumini.scss */
+.alumini .alumini__form-container input[type='email'] {
+  height: 44px !important;
+}
+
+/* line 14, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/components/_alumini.scss */
+.alumini input[type='email'] {
+  max-width: 313px;
+  margin: 0 auto !important;
+  border-radius: 3px !important;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  line-height: 17px;
+  font-family: "BryantRegularAlt";
+  font-size: 16px;
+  color: #9B9B9B;
+}
+
+/* line 19, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--upc .course-icon {
+  width: 68px;
+  height: 79px;
+}
+
+/* line 23, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_main.scss */
+.card--imc .immersive-icon, .mini_course__icon {
+  width: 128px;
+  height: 148px;
 }
 
 /* line 1, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/layout/_footer.scss */
@@ -1543,6 +1525,7 @@ footer {
 
 /* line 34, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_buttons.scss */
 .btn-brand--w313 {
+  font-family: "BryantMedium";
   border-radius: 3px !important;
   font-size: 18px !important;
   line-height: 16px;
@@ -1552,7 +1535,7 @@ footer {
   padding: 14px !important;
 }
 
-/* line 44, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_buttons.scss */
+/* line 45, /home/jide/Documents/repos/side-projects/univelsity/templates/assets/scss/modules/_buttons.scss */
 .btn-brand--careers-form {
   line-height: 16px;
   font-family: "BryantMedium";

@@ -1,0 +1,16 @@
+//Carousel
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    .owl-dot{
+        width: 10px;
+        height: 10px;
+        margin: 0 8px;
+        border-radius: 100%;
+        background: #CDCDCD;
+        &.active{
+            background: #4C62A8;
+        }
+    }
+}
+

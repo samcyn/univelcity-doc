@@ -1,0 +1,42 @@
+
+// INNER SECTION PADDING
+.inner-section{
+    padding: $inner-section-gap 0;
+    @media(max-width: 991px){
+        padding: ($inner-section-gap/2) 0;
+    }
+}
+
+
+.inner-section__heading, .inner-section__heading-small{
+    color: $inner-section_heading_color;
+    font-weight: 500;
+    text-align: center;
+    @media(max-width: 991px){
+        font-size: $inner-section_heading_font_size * 2.2 / 3;
+    }
+}
+
+.inner-section__heading{
+    font-size: $inner-section_heading_font_size;
+    line-height: $inner-section_heading_line_height;
+    margin-bottom: $inner-section_heading_margin_bottom;
+}
+
+.inner-section__heading-small{
+    font-size: 24px;
+    line-height: 21px;
+    margin-bottom: 9px;
+}
+
+.inner-section__passage{
+    color: $inner-section_heading_color;
+    font-size: $inner-section_passage_font_size;
+    line-height: $inner-section_passage_line_height;
+    margin: 0 auto;
+    text-align: center;
+    font-family: $BryantAlt;
+    @media (min-width: 991px) {
+        max-width: $inner-section_passage_max-width;
+    }
+}

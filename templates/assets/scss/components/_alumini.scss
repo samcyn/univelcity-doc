@@ -1,0 +1,25 @@
+
+//ALUMINI PAGE
+.alumini{
+    .alumini__form-container{
+        margin-top: 24px;
+        text-align: center;
+        .md-form{
+            margin-bottom: 16px;
+        }
+        input[type='email']{
+            height: 44px !important;
+        }
+    }
+    input[type='email']{
+        max-width: 313px;
+        margin: 0 auto !important;
+        border-radius: 3px !important;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        line-height: 17px;
+        font-family: $BryantAlt;
+        font-size: 16px;
+        color: #9B9B9B;
+    }
+}

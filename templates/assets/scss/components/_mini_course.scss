@@ -1,0 +1,134 @@
+
+// MINI COURSE PAGE
+.mini_course__icon{
+    @extend %card-icons-big;
+    margin: $mini_course_page_icon_margin;
+}
+
+.mini_course__title{
+    line-height: $mini_course_page_title_line_height;
+    font-size: $mini_course_page_title_font_size;
+    font-weight: $mini_course_page_title_font_weight;
+    text-align: $mini_course_page_title_text_align;
+    color: $mini_course_page_title_color;
+    margin-bottom: 0 !important;
+}
+
+
+.card--mini_course_right{
+    background-color: transparent;
+    box-shadow: none !important;
+    width: $mini_course_right_card_width;
+    @media (max-width: 1076px) {
+        width:auto;
+    }
+    .card-body{
+        margin-bottom: 48px;
+        background-color: #F9F9F9;
+        border-radius: 3px;
+        box-shadow: 2px 2px 4px 0 rgba(155, 155, 155, 0.5) !important;
+        border: solid 1px #E1E1E1 !important;
+    }
+   
+    .media{
+        padding-top: $mini_course_right_card_inner_spacing;
+        padding-bottom: $mini_course_right_card_inner_spacing;
+        border-bottom: $mini_course_right_card_inner_border;
+    }
+    .btn.btn-block.btn-brand{
+        padding: 14px !important;
+        font-size: 18px !important;
+        line-height: 16px;
+        border-radius: 3px;
+    }
+    .card__title{
+        line-height: $mini_course_right_card_title_line_height !important;
+        font-size: $mini_course_right_card_title_font_size !important;
+        text-align: left;
+        color: $brand-dark;
+        font-family: $BryantAlt;
+        margin-bottom: $mini_course_right_card_title_margin_bottom !important;
+        font-weight: $mini_course_right_card_title_font_weight !important;
+    }
+    .card__date{
+        line-height: $mini_course_right_card_date_line_height;
+        font-size: $mini_course_right_card_date_font_size;
+        font-weight: $mini_course_right_card_date_font_weight;
+        text-align: left;
+        color: $mini_course_right_card_date_color;
+    }
+    .card__price-off{
+        line-height: $mini_course_right_card_price_off_line_height;
+
+        .price{
+            color: $mini_course_right_card_price_off_color;
+            margin-right: $mini_course_right_card_price_off_margin_right;
+            text-decoration: line-through;
+        }
+        
+    }
+    .card-subscription__text{
+        font-size: $mini_course_right_card_subcription_text_font_size;
+        line-height: $mini_course_right_card_subcription_text_line_height;
+        text-align: left;
+        color: $mini_course_right_card_subcription_text_color;
+        margin-bottom: $mini_course_right_card_subcription_margin_bottom !important;
+        font-family: $BryantAlt;
+    }
+    .form-group{
+        margin-bottom: $mini_course_right_card_subcription_margin_bottom;
+    }
+    .input-alternate{
+        height: $mini_course_right_card_subcription_input_height !important;
+        border-radius: $mini_course_right_card_subcription_input_border_radius;
+        border: solid 1px #E1E1E1;
+        border-bottom: 1px solid #E1E1E1 !important;
+        box-shadow: none !important;
+        background-color: #FFFFFF;
+        &:focus, &:hover{
+            box-shadow: none !important;
+        }
+    }
+    
+}
+
+.mini-course__left{
+    width: $mini_course_left_card_width;
+    @media (max-width: 1076px) {
+        width: auto;
+    }
+    .course__title{
+        line-height: $mini_course_left_card_title_line_height;
+        font-size: $mini_course_left_card_title_font_size;
+        font-weight: $mini_course_left_card_title_font_weight;
+        margin-bottom: $mini_course_left_card_title_margin_bottom;
+    }
+
+    .course__passage{
+        font-size: $mini_course_left_card_paragraph_font_size;
+        line-height: $mini_course_left_card_paragraph_line_height;
+        text-align: left;
+        color: $mini_course_left_card_paragraph_color;
+        font-family: $BryantAlt;
+    }
+    .inner-section{
+        padding-top: 0 !important;
+    }
+    ul{
+        margin-bottom: 0 !important;
+        li{
+            list-style-type: disc;
+            line-height: $mini_course_left_card_list_items_line_height;
+            font-size: $mini_course_left_card_list_items_font_size;
+            color: $mini_course_left_card_list_items_color;
+            margin-bottom: $mini_course_left_card_list_items_margin_bottom;
+            font-family: $BryantAlt;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        div{
+            line-height: 1.88;
+        }
+    }
+}
